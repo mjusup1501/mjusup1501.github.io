@@ -5,7 +5,7 @@
     <link>https://matej-jusup.com/publication/</link>
       <atom:link href="https://matej-jusup.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 29 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://matej-jusup.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
@@ -14,9 +14,9 @@
     
     <item>
       <title>Safe Model-Based Multi-Agent Mean-Field Reinforcement Learning</title>
-      <link>https://matej-jusup.com/publication/safe_m3_ucrl/</link>
-      <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/safe_m3_ucrl/</guid>
+      <link>https://matej-jusup.com/publication/aamas2024/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://matej-jusup.com/publication/aamas2024/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
