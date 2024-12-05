@@ -13,6 +13,84 @@
     </image>
     
     <item>
+      <title>Mastering Board Games by External and Internal Planning with Language Models</title>
+      <link>https://matej-jusup.com/publication/mastering_chess2024/</link>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://matej-jusup.com/publication/mastering_chess2024/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Monte Carlo Planning for Stochastic Control on Constrained Markov Decision Processes</title>
+      <link>https://matej-jusup.com/publication/stochastic_control2024/</link>
+      <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://matej-jusup.com/publication/stochastic_control2024/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The 23rd International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS 2024)</title>
+      <link>https://matej-jusup.com/talk/the-23rd-international-conference-on-autonomous-agents-and-multi-agent-systems-aamas-2024/</link>
+      <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://matej-jusup.com/talk/the-23rd-international-conference-on-autonomous-agents-and-multi-agent-systems-aamas-2024/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [_Slides_](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Safe Model-Based Multi-Agent Mean-Field Reinforcement Learning</title>
       <link>https://matej-jusup.com/publication/aamas2024/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
@@ -36,6 +114,30 @@
 
 
 Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ETH Zurich AI Center Associated Researchers Meetup</title>
+      <link>https://matej-jusup.com/talk/eth-zurich-ai-center-associated-researchers-meetup/</link>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://matej-jusup.com/talk/eth-zurich-ai-center-associated-researchers-meetup/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [_Slides_](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --&gt;
 </description>
     </item>
     
@@ -118,6 +220,30 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     </item>
     
     <item>
+      <title>22nd Swiss Transport Research Conference (STRC 2021)</title>
+      <link>https://matej-jusup.com/talk/22nd-swiss-transport-research-conference-strc-2021/</link>
+      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://matej-jusup.com/talk/22nd-swiss-transport-research-conference-strc-2021/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [_Slides_](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Real-time railway (re-) scheduling without human-expert knowledge</title>
       <link>https://matej-jusup.com/publication/strc2022/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
@@ -141,6 +267,54 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
 
 
 Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>21st Swiss Transport Research Conference (STRC 2021)</title>
+      <link>https://matej-jusup.com/talk/21st-swiss-transport-research-conference-strc-2021/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://matej-jusup.com/talk/21st-swiss-transport-research-conference-strc-2021/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [_Slides_](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IJCAI 2021 Reinforcement Learning for Intelligent Transportation Systems (RL4ITS) Workshop</title>
+      <link>https://matej-jusup.com/talk/ijcai-2021-reinforcement-learning-for-intelligent-transportation-systems-rl4its-workshop/</link>
+      <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://matej-jusup.com/talk/ijcai-2021-reinforcement-learning-for-intelligent-transportation-systems-rl4its-workshop/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [_Slides_](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --&gt;
 </description>
     </item>
     
@@ -352,7 +526,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-415398726&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-419368725&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -362,7 +536,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-415398726&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-419368725&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
