@@ -13,6 +13,30 @@
     </image>
     
     <item>
+      <title>Google DeepMind Booth at NeurIPS 2024</title>
+      <link>https://matej-jusup.com/talk/google-deepmind-booth-at-neurips-2024/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://matej-jusup.com/talk/google-deepmind-booth-at-neurips-2024/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [_Slides_](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Mastering Board Games by External and Internal Planning with Language Models</title>
       <link>https://matej-jusup.com/publication/mastering_chess2024/</link>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
@@ -295,6 +319,33 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     </item>
     
     <item>
+      <title>A Review of Real-time Railway and Metro Rescheduling Models using Learning Algorithms</title>
+      <link>https://matej-jusup.com/publication/ijcai2021/</link>
+      <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://matej-jusup.com/publication/ijcai2021/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>IJCAI 2021 Reinforcement Learning for Intelligent Transportation Systems (RL4ITS) Workshop</title>
       <link>https://matej-jusup.com/talk/ijcai-2021-reinforcement-learning-for-intelligent-transportation-systems-rl4its-workshop/</link>
       <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
@@ -526,7 +577,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-152394687&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-951364287&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -536,7 +587,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-152394687&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-951364287&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1027,33 +1078,6 @@ $$&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://matej-jusup.com/admin/config.yml</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>A Review of Real-time Railway and Metro Rescheduling Models using Learning Algorithms</title>
-      <link>https://matej-jusup.com/publication/ijcai2021/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/ijcai2021/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
     </item>
     
   </channel>
