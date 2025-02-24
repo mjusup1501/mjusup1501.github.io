@@ -2,27 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://matej-jusup.com/event/</loc>
+    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://matej-jusup.com/talk/zurichnlp-meetup/</loc>
+    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://matej-jusup.com/publication-type/3/</loc>
+    <lastmod>2025-02-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://matej-jusup.com/publication/mfbo2025/</loc>
+    <lastmod>2025-02-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://matej-jusup.com/publication_types/</loc>
+    <lastmod>2025-02-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://matej-jusup.com/publication/</loc>
+    <lastmod>2025-02-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://matej-jusup.com/talk/google-deepmind-booth-at-neurips-2024/</loc>
     <lastmod>2024-12-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://matej-jusup.com/event/</loc>
-    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://matej-jusup.com/publication-type/3/</loc>
-    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://matej-jusup.com/publication/mastering_chess2024/</loc>
-    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://matej-jusup.com/publication_types/</loc>
-    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://matej-jusup.com/publication/</loc>
     <lastmod>2024-12-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
