@@ -1,17 +1,13 @@
-<!DOCTYPE html>
-<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: February 24, 2025 --><html lang="en-us" >
-
-
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: May 28, 2025 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="system">
+  
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  
-  
-  
-    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
-  
+  <meta name="generator" content="Hugo Blox Builder 0.3.1" />
 
   
   
@@ -27,199 +23,6 @@
 
 
 
-  
-  
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-  
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  
-
-  
-  
-  
-    
-      
-      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
-    
-  
-
-  
-  
-
-  
-  
-
-  
-
-  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
-
-  
-  
-  
-    
-    
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
-    
-
-    
-    
-    
-    
-      
-      
-    
-    
-    
-
-    
-    
-    
-
-    
-
-    
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-        
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-  
-
-  
-  
-  
-  
-  
-  
-  <link rel="stylesheet" href="/css/wowchemy.0f229d4b7ebad1917a9a357cba2effab.css" />
-
-  
-  
-  
-
-  
-  
   
   
   
@@ -227,12 +30,103 @@
   
     
     
-    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
-    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+    
+  
+  
+
+  <meta name="author" content="M. Jusup*" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://matej-jusup.com/" />
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/themes/emerald.min.css" />
   
 
   
   
+    
+    <link href="/dist/wc.min.css" rel="stylesheet" />
+  
+
+  
+  
+  
+
+  
+    
+    <link href="/css/custom.min.2a6f9254baf78ebbe961e72fda17f2be766d3c5f791a56d86284f4cc12c5d777.css" rel="stylesheet" />
+  
+
+  <script>
+     
+    window.hbb = {
+       defaultTheme: document.documentElement.dataset.wcThemeDefault,
+       setDarkTheme: () => {
+        document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark";
+      },
+       setLightTheme: () => {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.style.colorScheme = "light";
+      }
+    }
+
+    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
+
+    if ("wc-color-theme" in localStorage) {
+      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+    } else {
+      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      if (window.hbb.defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      }
+    }
+  </script>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
+      checkboxes.forEach(e => {
+        e.parentElement.parentElement.classList.add('task-list');
+      });
+
+      
+      const liNodes = document.querySelectorAll('.task-list li');
+      liNodes.forEach(nodes => {
+        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
+        if (textNodes.length > 0) {
+          const span = document.createElement('label');
+          textNodes[0].after(span);  
+          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
+          span.appendChild(textNodes[0]);
+        }
+      });
+    });
+  </script>
+
+  
+  
+  
+
+
+
+
+
+
 
 
 
@@ -298,86 +192,61 @@
 
 
 
-  
-  
-  
-
-
-
-
-
-
-  <meta name="author" content="Matej Jusup" />
-
-
-
-
-
-  
-
-<meta name="description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." />
-
-
-
-<link rel="alternate" hreflang="en-us" href="https://matej-jusup.com/" />
-<link rel="canonical" href="https://matej-jusup.com/" />
-
-
-
-  <link rel="manifest" href="/manifest.webmanifest" />
-
-
-
-<link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
-<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
-
-<meta name="theme-color" content="#1565c0" />
-
-
-
-
-
-
 
 
 
 
   
   
-
-
-
-
-
-
-<meta property="twitter:card" content="summary" />
-
-  <meta property="twitter:site" content="@wowchemy" />
-  <meta property="twitter:creator" content="@wowchemy" />
-<meta property="twitter:image" content="https://matej-jusup.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
-<meta property="og:site_name" content="Matej Jusup" />
-<meta property="og:url" content="https://matej-jusup.com/" />
-<meta property="og:title" content="Matej Jusup" />
-<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://matej-jusup.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
-
-  
-    <meta property="og:updated_time" content="2022-10-24T00:00:00&#43;00:00" />
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Hugo Academic CV Theme" />
   
 
+  
+  <link rel="icon" type="image/png" href="/media/icon_hu_5cac115d14ed3d49.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_e7f327b39c12e7ca.png" />
 
+  <link rel="canonical" href="https://matej-jusup.com/" />
 
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
 
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@GetResearchDev" />
+    <meta property="twitter:creator" content="@GetResearchDev" />
+  
+  <meta property="og:site_name" content="Hugo Academic CV Theme" />
+  <meta property="og:url" content="https://matej-jusup.com/" />
+  <meta property="og:title" content="Hugo Academic CV Theme" />
+  <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." /><meta property="og:image" content="https://matej-jusup.com/media/icon_hu_645fa481986063ef.png" />
+    <meta property="twitter:image" content="https://matej-jusup.com/media/icon_hu_645fa481986063ef.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta property="og:updated_time" content="2022-10-24T00:00:00&#43;00:00" />
+    
+  
+
+  
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://matej-jusup.com/?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  },
-  "url": "https://matej-jusup.com/"
+  "@type": "WebSite","url": "https://matej-jusup.com/"
 }
 </script>
 
@@ -385,29 +254,365 @@
   
 
 
-
-
-  
-  
-  
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  
-
-  
-  
-    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Matej Jusup" />
-  
-
-  
-
-
-  
-  <title>Matej Jusup</title>
+  <title>Hugo Academic CV Theme</title>
 
   
   
   
   
+  
+    
+    
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/dist/font/Inter.var.woff2) format(woff2);
+    }
+  </style>
+
+  
+
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
 
 
 
@@ -415,450 +620,484 @@
 
 
 
+<link type="text/css" rel="stylesheet" href="/dist/pagefind/pagefind-ui.be766eb419317a14ec769d216e9779bfe8f3737c80e780f4ba0dafb57a41a482.css" integrity="sha256-vnZutBkxehTsdp0hbpd5v&#43;jzc3yA54D0ug2vtXpBpII=" />
+
+
+<script src="/dist/pagefind/pagefind-ui.87693d7c6f2b3b347ce359d0ede762c033419f0a32b22ce508c335a81d841f1b.js" integrity="sha256-h2k9fG8rOzR841nQ7ediwDNBnwoysizlCMM1qB2EHxs="></script>
+
+
+<script>window.hbb.pagefind = {"baseUrl":"/"};</script>
+
+<style>
+  html.dark {
+    --pagefind-ui-primary: #eeeeee;
+    --pagefind-ui-text: #eeeeee;
+    --pagefind-ui-background: #152028;
+    --pagefind-ui-border: #152028;
+    --pagefind-ui-tag: #152028;
+  }
+</style>
+
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      baseUrl: window.hbb.pagefind.baseUrl,
+      bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
+    });
+  });
+  document.addEventListener('DOMContentLoaded', () => {
+    let element = document.getElementById('search');
+    let trigger = document.getElementById('search_toggle');
+
+    if (trigger) {
+      trigger.addEventListener('click', () => {
+        element.classList.toggle('hidden');
+        element.querySelector("input").value = ""
+        element.querySelector("input").focus()
+
+        if (!element.classList.contains('hidden')) {
+          let clear_trigger = document.querySelector('.pagefind-ui__search-clear');
+
+          if (clear_trigger && !clear_trigger.hasAttribute('listenerOnClick')) {
+            clear_trigger.setAttribute('listenerOnClick', 'true');
+
+            clear_trigger.addEventListener('click', () => {
+              element.classList.toggle('hidden');
+            });
+          }
+        }
+
+      });
+    }
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link type="text/css" rel="stylesheet" href="/dist/lib/katex/katex.min.505d5f829022bb7b4f24dfee0aa1141cd7bba67afe411d1240335f820960b5c3.css" integrity="sha256-UF1fgpAiu3tPJN/uCqEUHNe7pnr&#43;QR0SQDNfgglgtcM=" />
+  
+  
+  <script defer src="/dist/lib/katex/katex.min.dc84b296ec3e884de093158f760fd9d45b6c7abe58b5381557f4e138f46a58ae.js" integrity="sha256-3ISyluw&#43;iE3gkxWPdg/Z1Ftser5YtTgVV/ThOPRqWK4="></script>
+  
+  
+  
+  
+  <script defer src="/js/katex-renderer.6579ec9683211cfb952064aedf3a3baea5eeb17a061775b32b70917474637c80.js" integrity="sha256-ZXnsloMhHPuVIGSu3zo7rqXusXoGF3WzK3CRdHRjfIA="></script>
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <script
+    defer
+    src="/js/hugo-blox-en.min.8c8ea06bd0420f5067e52fa727b9f92303757322ba4431774153d59a9735eadb.js"
+    integrity="sha256-jI6ga9BCD1Bn5S&#43;nJ7n5IwN1cyK6RDF3QVPVmpc16ts="
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+      
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+      
+    
+  
 
 
 
 
 </head>
 
-
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   " data-wc-page-id="3976528693a0108357f4928017600865" >
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
-
-  
-
-
-<aside class="search-modal" id="search">
-  <div class="container">
-    <section class="search-header">
-
-      <div class="row no-gutters justify-content-between mb-3">
-        <div class="col-6">
-          <h1>Search</h1>
-        </div>
-        <div class="col-6 col-search-close">
-          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
-        </div>
-      </div>
-
-      <div id="search-box">
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header sticky top-0 z-30">
+      
+      
+      
         
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
-        aria-label="Search...">
         
-      </div>
-
-      
-      
-
-      
-
-    </section>
-    <section class="section-search-results">
-
-      <div id="search-hits">
         
-      </div>
+          <header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-left">
+    <div class="order-0 h-100">
+      
+      <a class="navbar-brand" href="/" title="Hugo Academic CV Theme">
+        Matej Jusup
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    
 
-    </section>
-  </div>
-</aside>
+    
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      ">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link active"
+          
+          href="/"
+        >Bio</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/publications/"
+        >Papers</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#talks"
+        >Talks</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#experience"
+        >Experience &amp; Education</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#skills"
+        >Skills</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#chess"
+        >Chess Challenge</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/uploads/matej_jusup_cv.pdf"
+        >CV</a
+        >
+      </li>
+      
+      
+      
+    </ul>
 
-
-
-  <div class="page-header header--fixed">
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-<header>
-  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-    <div class="container-xl">
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
 
       
-      <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/">Matej Jusup</a>
-      </div>
       
-
       
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-      <span><i class="fas fa-bars"></i></span>
+      <button
+        aria-label="search"
+        class="text-black hover:text-primary  inline-block px-3 text-xl dark:text-white"
+        id="search_toggle">
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
       </button>
       
 
       
-      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/">Matej Jusup</a>
+      
+      <div class="px-3 text-black hover:text-primary-700 dark:text-white dark:hover:text-primary-300
+            [&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white">
+        <button class="theme-toggle mt-1" accesskey="t" title="appearance">
+          <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class="dark:hidden">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
       </div>
       
 
       
       
-      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
-        
-        <ul class="navbar-nav d-md-inline-flex">
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#talks" data-target="#talks"><span>Talks</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#experience" data-target="#experience"><span>Experience</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#hobbies" data-target="#hobbies"><span>Hobbies</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/uploads/matej_jusup_cv.pdf"><span>CV</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
-          </li>
-
-          
-          
-
-        
-
-          
-        </ul>
-      </div>
-
-      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-
-        
-        
-          
-            
-            <li class="nav-item d-none d-lg-inline-flex">
-              <a class="nav-link" href="https://twitter.com/MatejJusup" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
-                <i class="fab fa-twitter" aria-hidden="true"></i>
-              </a>
-            </li>
-          
-            
-            <li class="nav-item d-none d-lg-inline-flex">
-              <a class="nav-link" href="https://www.linkedin.com/in/matej-jusup" target="_blank" rel="noopener" aria-label="linkedin">
-                <i class="fab fa-linkedin" aria-hidden="true"></i>
-              </a>
-            </li>
-          
-            
-            <li class="nav-item d-none d-lg-inline-flex">
-              <a class="nav-link" href="/#contact"  aria-label="envelope">
-                <i class="fas fa-envelope" aria-hidden="true"></i>
-              </a>
-            </li>
-          
-        
-
-        
-        
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
-
-        
-        
-        
-        <li class="nav-item dropdown theme-dropdown">
-          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
-            <i class="fas fa-moon" aria-hidden="true"></i>
-          </a>
-          <div class="dropdown-menu">
-            <a href="#" class="dropdown-item js-set-theme-light">
-              <span>Light</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-dark">
-              <span>Dark</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-auto">
-              <span>Automatic</span>
-            </a>
-          </div>
-        </li>
-        
-
-        
-        
-
-      </ul>
-
+      
+      
     </div>
   </nav>
 </header>
 
 
-  </div>
+<div id="search" class="hidden p-3"></div>
 
-  <div class="page-body">
-    
-    
+
+        
+      
+    </div>
+    <div class="page-body ">
+      
+
+  
+  
     
 
-    
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   
@@ -872,11 +1111,33 @@
 
 
   
+  
+  
+    
+    
+      
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
 
-<span class="js-widget-page d-none"></span>
+
+
+  
 
 
 
+  
+    
+    
+    
   
 
 
@@ -907,38 +1168,11 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="about" class="home-section wg-about-avatar  "  >
- <div class="home-section-bg " >
+<section id="section-resume-biography-3" class="relative hbb-section blox-resume-biography-3  dark" style="padding: 3rem 0 3rem 0;" >
+ <div class="home-section-bg  bg-image" style="background-color: black;background-image: url(&#39;https://matej-jusup.com/media/chess-wallpaper-2_hu_e8e6ef1f574b7ec0.webp&#39;);background-size: cover;background-position: center;filter: brightness(0.5);">
    
  </div>
-  <div class="container">
+  
 
   
 
@@ -952,7 +1186,6 @@
 
 
 
-  
 
 
 
@@ -961,2465 +1194,2499 @@
 
 
 
-
-<div id="profile">
-
-  
-  <div class="avatar-wrapper">
-    
-    <img class="avatar avatar-circle" src="/authors/admin/avatar_hu01cd0fc9046a1f637c4573466c74b14e_126733_150x150_fill_q75_lanczos_center.jpg" alt="Matej Jusup"
-         width="150" height="150">
-    
-  </div>
-  
-
-  <div class="portrait-title">
-
-    <h2>Matej Jusup</h2>
-
-    <h3>Doctoral Researcher</h3>
-
-    
-    <h3>
-      <a href="https://www.ivt.ethz.ch/en/people/profile.matej-jusup.html" target="_blank" rel="noopener">
-      <span>ETH Zurich</span>
-      </a>
-    </h3>
-    
-  </div>
-
-  <ul class="network-icon" aria-hidden="true">
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://twitter.com/MatejJusup" target="_blank" rel="noopener" aria-label="twitter"
-          data-toggle="tooltip" data-placement="top" title="Follow me on Twitter">
-        <i class="fab fa-twitter big-icon"></i>
-      </a>
-    </li>
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://www.linkedin.com/in/matej-jusup" target="_blank" rel="noopener" aria-label="linkedin"
-         >
-        <i class="fab fa-linkedin big-icon"></i>
-      </a>
-    </li>
-    
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.com/citations?user=gXzUTZ8AAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="google-scholar"
-         >
-        <i class="ai ai-google-scholar big-icon"></i>
-      </a>
-    </li>
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/mjusup1501" target="_blank" rel="noopener" aria-label="github"
-         >
-        <i class="fab fa-github big-icon"></i>
-      </a>
-    </li>
-    
-    
-    
-    
-    
-    
-    
-    
-      
-      
-    
-    <li>
-      <a href="/uploads/matej_jusup_cv.pdf" target="_blank" rel="noopener" aria-label="cv"
-         >
-        <i class="ai ai-cv big-icon"></i>
-      </a>
-    </li>
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-      
-    
-    <li>
-      <a href="/#contact"  aria-label="envelope"
-         >
-        <i class="fas fa-envelope big-icon"></i>
-      </a>
-    </li>
-    
-  </ul>
+<div class="resume-biography px-3 flex flex-col md:flex-row justify-center gap-12">
+  <div class="flex-none m-w-[130px] mx-auto md:mx-0">
 
   
-  <div class="article-style pt-2 d-flex justify-content-center">
-    <div class="bio-text">
-      <p style="text-align: justify;">I am a PhD student at <a href="https://ethz.ch/en.html" target="_blank" rel="noopener">ETH Zurich</a> and an Associated Researcher at <a href="https://ai.ethz.ch/" target="_blank" rel="noopener">ETH AI Center</a>, supervised by <a href="https://francescocorman.eu/" target="_blank" rel="noopener">Prof. Francesco Corman</a> and <a href="https://las.inf.ethz.ch/krausea" target="_blank" rel="noopener">Prof. Andreas Krause</a>. My research interests are sequential decision-making and data-driven algorithms. I am particularly passionate about reinforcement learning, multi-agent learning, safe learning, and their applications in transportation systems.</p>
-<p style="text-align: justify;">I recently finished a research internship at Google hosted by <a href="https://ericmalmi.com/" target="_blank" rel="noopener">Eric Malmi</a> and <a href="https://scholar.google.com/citations?user=EoVDI3MAAAAJ&amp;hl=en" target="_blank" rel="noopener">Aliaksei Severyn</a>.</p>
-<p style="text-align: justify;">Before starting a PhD, I worked as a Quantitative Researcher at <a href="https://www.morganstanley.com/" target="_blank" rel="noopener">Morgan Stanley</a> and as a team-lead Data Scientist in a tech startup, <a href="https://cantabpi.com/" target="_blank" rel="noopener">Cantab Predictive Intelligence</a>.</p>
+  
 
+  <div id="profile" class="flex justify-center items-center flex-col">
+    
+
+    <div class="avatar-wrapper mt-10">
+      
+      <img class="avatar rounded-full bg-white dark:bg-gray-800 p-1" src="/author/matej-jusup/avatar_hu_3fd12fa8ebd66774.jpg" alt="Matej Jusup"
+           width="150" height="150">
+      
     </div>
-  </div>
-  
-
-</div>
-
-
-  
-
-  </div>
-</section>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="publications" class="home-section wg-collection  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  ">
-    
-      
-        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">Publications</h1>
-          
-        </div>
-      
-    
-  
-
     
 
+    <div class="portrait-title dark:text-white">
 
+      <div class="text-3xl font-bold mb-2 mt-6">Matej Jusup</div>
 
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/mfbo2025/" >Mean-Field Bayesian Optimisation</a>
-    </div>
-
-    
-    <a href="/publication/mfbo2025/"  class="summary-link">
-      <div class="article-style">
-        arXiv:2502.12315 preprint
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
+      <h3 class="font-semibold mb-1">PhD Student</h3>
 
       
-
-      
-      <div>
-        
-
-  <span >
-      P. Steinberg</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      J. Ziomek</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      M. Jusup</span>, <span >
-      I. Bogunovic</span>
+      <div class="mb-2">
+        <a href="https://ethz.ch/en.html" target="_blank" rel="noopener">
+        <div>ETH Zurich</div>
+        </a>
       </div>
       
     </div>
 
-    
-    <div class="btn-links">
+    <ul class="network-icon dark:text-zinc-100">
       
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2502.12315" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/mfbo2025/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
       
-      <a href="/publication/mfbo2025/" >
-        <img src="/publication/mfbo2025/featured_huf165911cbfb8a524cdc0d6db65bdb2b3_683444_150x0_resize_q75_h2_lanczos.webp" height="84" width="150"
-            alt="Mean-Field Bayesian Optimisation" loading="lazy">
-      </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/mastering_chess2024/" >Mastering Board Games by External and Internal Planning with Language Models</a>
-    </div>
-
-    
-    <a href="/publication/mastering_chess2024/"  class="summary-link">
-      <div class="article-style">
-        arXiv:2412.12119 preprint
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
       
-
-      
-      <div>
-        
-
-  <span >
-      J. Schultz</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      J. Adamek</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      M. Jusup</span>, <span >
-      M. Lanctot</span>, <span >
-      M. Kaisers</span>, <span >
-      S. Perrin</span>, <span >
-      D. Hennes</span>, <span >
-      J. Shar</span>, <span >
-      C. Lewis</span>, <span >
-      A. Ruoss</span>, <span >
-      T. Zahavy</span>, <span >
-      P. Veličković</span>, <span >
-      L. Prince</span>, <span >
-      S. Singh</span>, <span >
-      E. Malmi</span>, <span >
-      N. Tomašev</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2412.12119" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/mastering_chess2024/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://x.com/MatejJusup/status/1864675788592730537" target="_blank" rel="noopener">
-    Summary</a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://x.com/MatejJusup/status/1864666906185093298" target="_blank" rel="noopener">
-    Twitter</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-      
-      <a href="/publication/mastering_chess2024/" >
-        <img src="/publication/mastering_chess2024/featured_hu0d80e53d6e85f279547891448a603a98_601951_150x0_resize_q75_h2_lanczos.webp" height="185" width="150"
-            alt="Mastering Board Games by External and Internal Planning with Language Models" loading="lazy">
-      </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/stochastic_control2024/" >Monte Carlo Planning for Stochastic Control on Constrained Markov Decision Processes</a>
-    </div>
-
-    
-    <a href="/publication/stochastic_control2024/"  class="summary-link">
-      <div class="article-style">
-        arXiv:2406.16151 preprint
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      L. Liu</span>, <span >
-      S. Liu</span>, <span >
-      M. Jusup</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2406.16151" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/stochastic_control2024/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-      
-      <a href="/publication/stochastic_control2024/" >
-        <img src="/publication/stochastic_control2024/featured_hu02aa61ae1d9de35cbe238d2676170cb9_44942_150x0_resize_q75_h2_lanczos.webp" height="86" width="150"
-            alt="Monte Carlo Planning for Stochastic Control on Constrained Markov Decision Processes" loading="lazy">
-      </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/aamas2024/" >Safe Model-Based Multi-Agent Mean-Field Reinforcement Learning</a>
-    </div>
-
-    
-    <a href="/publication/aamas2024/"  class="summary-link">
-      <div class="article-style">
-        International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS), 2024
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      M. Jusup</span>, <span >
-      B. Pásztor</span>, <span >
-      T. Janik</span>, <span >
-      K. Zhang</span>, <span >
-      F. Corman</span>, <span >
-      A. Krause</span>, <span >
-      I. Bogunovic</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2306.17052" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/aamas2024/cite.bib">
-  Cite
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/mjusup1501/safe-m3-ucrl" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://x.com/MatejJusup/status/1741144748260286711?s=20" target="_blank" rel="noopener">
-    Summary</a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://x.com/MatejJusup/status/1741144748260286711?s=20" target="_blank" rel="noopener">
-    Twitter</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-      
-      <a href="/publication/aamas2024/" >
-        <img src="/publication/aamas2024/featured_huf5a1983da847672b107632e2289ff250_3883275_150x0_resize_q75_h2_lanczos_3.webp" height="113" width="150"
-            alt="Safe Model-Based Multi-Agent Mean-Field Reinforcement Learning" loading="lazy">
-      </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/aistats2023/" >Efficient Planning in Combinatorial Action Spaces with Applications to Cooperative Multi-Agent Reinforcement Learning</a>
-    </div>
-
-    
-    <a href="/publication/aistats2023/"  class="summary-link">
-      <div class="article-style">
-        Conference on Artificial Intelligence and Statistics (AISTATS), 2023
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      V. Tkachuk</span>, <span >
-      S. A. Bakhtiari</span>, <span >
-      J. Kirschner</span>, <span >
-      M. Jusup</span>, <span >
-      I. Bogunovic</span>, <span >
-      C. Szepesvari</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2302.04376" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/aistats2023/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-      
-      <a href="/publication/aistats2023/" >
-        <img src="/publication/aistats2023/featured_hud244ac7042aadc0a77f1c1644fc3aaa1_234769_150x0_resize_q75_h2_lanczos.webp" height="110" width="150"
-            alt="Efficient Planning in Combinatorial Action Spaces with Applications to Cooperative Multi-Agent Reinforcement Learning" loading="lazy">
-      </a>
-    
-  </div>
-</div>
-
-  
-
-  
-  
-  
-
-    
-    
-      
-    
-
-    
-    
-    
-    
-      
-    
-
-    
-
-    <div class="see-all">
-      <a href="/publication/">
-        See all publications
-        <i class="fas fa-angle-right"></i>
-      </a>
-    </div>
-  
-
-</div>
-
-
-  
-    </div>
-  
-
-  </div>
-</section>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="talks" class="home-section wg-collection  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  ">
-    
-      
-        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">Talks</h1>
-          
-        </div>
-      
-    
-  
-
-    
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/talk/zurichnlp-meetup/" >ZurichNLP Meetup</a>
-    </div>
-
-    
-    <a href="/talk/zurichnlp-meetup/"  class="summary-link">
-      <div class="article-style">
-        Invited talk on Mastering Board Games With Language Models hosted by ZurichAI.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span>
-          Feb 20, 2025
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>Zurich, Switzerland</span>
-        
-      </div>
-      
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://docs.google.com/presentation/d/1NiMHuCbyWAgfPWQdFLKuaHV7WNOYye5xB4tcJk2JEnc/edit?usp=sharing" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/talk/google-deepmind-booth-at-neurips-2024/" >Google DeepMind Booth at NeurIPS 2024</a>
-    </div>
-
-    
-    <a href="/talk/google-deepmind-booth-at-neurips-2024/"  class="summary-link">
-      <div class="article-style">
-        A talk on Mastering Chess With Language Models.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span>
-          Dec 11, 2024
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>Vancouver, Canada</span>
-        
-      </div>
-      
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/talk/the-23rd-international-conference-on-autonomous-agents-and-multi-agent-systems-aamas-2024/" >The 23rd International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS 2024)</a>
-    </div>
-
-    
-    <a href="/talk/the-23rd-international-conference-on-autonomous-agents-and-multi-agent-systems-aamas-2024/"  class="summary-link">
-      <div class="article-style">
-        A conference talk on a Safe Model-Based Multi-Agent Mean-Field Reinforcement Learning.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span>
-          May 10, 2024
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>Auckland, New Zealand</span>
-        
-      </div>
-      
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/talk/eth-zurich-ai-center-associated-researchers-meetup/" >ETH Zurich AI Center Associated Researchers Meetup</a>
-    </div>
-
-    
-    <a href="/talk/eth-zurich-ai-center-associated-researchers-meetup/"  class="summary-link">
-      <div class="article-style">
-        A meetup talk on a vehicle repositioning using a safe mean-field reinforcement learning.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span>
-          Sep 28, 2023
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>Zurich, Switzerland</span>
-        
-      </div>
-      
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/talk/workshop-on-stochastic-modelling-and-monte-carlo-tree-search/" >Workshop on Stochastic Modelling and Monte-Carlo Tree Search</a>
-    </div>
-
-    
-    <a href="/talk/workshop-on-stochastic-modelling-and-monte-carlo-tree-search/"  class="summary-link">
-      <div class="article-style">
-        A talk on Neural-MCTS applications in train routing.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span>
-          Sep 1, 2022
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>Munich, Germany</span>
-        
-      </div>
-      
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-
-  
-  
-  
-
-    
-    
-      
-    
-
-    
-    
-    
-    
-      
-    
-
-    
-
-    <div class="see-all">
-      <a href="/event/">
-        See all events
-        <i class="fas fa-angle-right"></i>
-      </a>
-    </div>
-  
-
-</div>
-
-
-  
-    </div>
-  
-
-  </div>
-</section>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="experience" class="home-section wg-experience  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  ">
-    
-      
-        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">Experience</h1>
-          
-        </div>
-      
-    
-  
-
-    
-
-
-
-
-
-
-
-
-
-<div class="col-12 col-lg-8">
-  
-
-  
-  
-
-  
-  
-  <div class="row experience">
-    
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col ">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
-    
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-
-              <div class="section-subheading card-title exp-title text-muted my-0">Student Researcher</div>
-              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://about.google/" target="_blank" rel="noopener">Google</a></div>
-              <div class="text-muted exp-meta">
-                April 2024 –
-                
-                  September 2024
-                
-                
-                  <span class="middot-divider"></span>
-                  <span>Zurich</span>
-                
-              </div>
-
-          <div class="card-text"><p>During my internship hosted by <a href="https://ericmalmi.com/" target="_blank" rel="noopener">Eric Malmi</a> and <a href="https://scholar.google.com/citations?user=EoVDI3MAAAAJ&amp;hl=en" target="_blank" rel="noopener">Aliaksei Severyn</a>, I played a significant role in a cutting-edge research project that enhanced language models (LMs) with search-based planning techniques to improve multi-step reasoning in board games such as Chess, Chess960, Connect Four, and Hex. My contributions were integral to the project&rsquo;s development and success, culminating in a <a href="https://deepmind.google/research/publications/139455/" target="_blank" rel="noopener">publication</a> and integrating the model within Gemini as a <a href="https://gemini.google.com/gem/chess-champ" target="_blank" rel="noopener">Chess Gem</a>.</p>
-<p>My primary contribution focused on external Monte Carlo Tree Search (MCTS), where I addressed the challenge of balancing exploration and exploitation in low simulation count settings. I designed and implemented dynamic virtual counts, a novel mechanism that dynamically adjusts virtual count weights closer to leaf nodes, overcoming limitations of fixed virtual counts and virtual losses. This innovation significantly improved search efficiency and enabled the agent to achieve Grandmaster-level performance in Chess with a search move count per decision comparable to human players.</p>
-<p>Additionally, I collaborated on:</p>
-<ul>
-<li>Pre-training a multi-action-value (MAV) Transformer model to capture value and transition functions across multiple games.</li>
-<li>Leveraging MAV within external MCTS as a policy and value predictor, improving state accuracy and minimizing hallucinations.</li>
-<li>Developing internal search, where the LM infers the search procedure by generating a linearized tree of potential futures, enabling performance scaling with an increased search budget.</li>
-</ul>
-<p>This internship experience highlighted my ability to tackle complex technical challenges and contribute to impactful research, demonstrating the potential of combining LMs with search-based methods for broader inference and training applications.</p>
-</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="row experience">
-    
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
-    
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-
-              <div class="section-subheading card-title exp-title text-muted my-0">Team Lead Data Scientist</div>
-              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://cantabpi.com/" target="_blank" rel="noopener">Cantab Predictive Intelligence (tech startup)</a></div>
-              <div class="text-muted exp-meta">
-                March 2019 –
-                
-                  July 2020
-                
-                
-                  <span class="middot-divider"></span>
-                  <span>Zagreb, Cambridge</span>
-                
-              </div>
-
-          <div class="card-text"><p>Lead a team of five data scientists.</p>
-<p><strong>Behavioral Credit Scoring:</strong></p>
-<ul>
-<li>Built a PySpark gradient-boosting model to predict consumer default risk probability, achieving a market-leading Gini metric results of up to 75%.</li>
-</ul>
-<p><strong>ML-Driven Marketing Campaign:</strong></p>
-<ul>
-<li>Devised a data-driven campaign for promoting a heart disease drug to doctors on behalf of a top pharmaceutical company, which led to a 10% sales increase during A/B testing.</li>
-<li>Statistical analysis was conducted using Statsmodels, SciPy, and Python plotting packages.</li>
-</ul>
-<p><strong>Personalized Newsletter and E-Commerce Recommender Systems:</strong></p>
-<ul>
-<li>Constructed a hybrid recommender system combining content-based and collaborative filtering, which achieved a 1.5% click-through rate during the proof-of-concept phase.</li>
-<li>Utilized Databricks, Python, PyTorch, and AWS in the technology stack.</li>
-</ul>
-<p><strong>Delivery Delay Estimation:</strong></p>
-<ul>
-<li>Developed a customer support system for a shopping mall during the COVID-19 pandemic, which predicted delivery delays using a time-series ARIMA model supplemented with supervised learning techniques.</li>
-<li>The technology stack comprised Pandas, NumPy, and Sklearn.</li>
-</ul>
-</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="row experience">
-    
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
-    
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-
-              <div class="section-subheading card-title exp-title text-muted my-0">Quantitative Researcher</div>
-              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.morganstanley.com/" target="_blank" rel="noopener">Morgan Stanley</a></div>
-              <div class="text-muted exp-meta">
-                October 2017 –
-                
-                  March 2019
-                
-                
-                  <span class="middot-divider"></span>
-                  <span>Budapest</span>
-                
-              </div>
-
-          <div class="card-text"><p><strong>Systemic Risk Model Execution Efficiency:</strong></p>
-<ul>
-<li>Created a parallel version of a hill climber heuristic that made the optimization problem practically tractable. The heuristic’s runtime was limited to 3 minutes and, on average, generated solutions within 5% of the optimum, with the reported worst-case being 15% for tractable test-set instances.</li>
-<li>Employed a technology stack encompassed Python, CPLEX, and OR-Tools.</li>
-</ul>
-<p><strong>Treasury Department Cash Traceability:</strong></p>
-<ul>
-<li>Constructed an uncollateralized debt tracking system by amalgamating diverse daily feeds to generate comprehensive firm-wide reports within seconds.</li>
-<li>Employed Q/kdb+, Python, PyQ kernel, and SQL for the development.</li>
-</ul>
-<p><strong>E-Trading Execution Limits Calibration:</strong></p>
-<ul>
-<li>Fine-tuned an in-house model to prevent real-time executions during high-risk scenarios, employing a statistical analysis of e-trading clients.</li>
-<li>Utilized Pandas for the calibration process.</li>
-</ul>
-<p><strong>Listed derivatives liquidity:</strong></p>
-<ul>
-<li>Created proof-of-concept for data-driven liquidation model based on intraday futures trading.</li>
-<li>Utilized Q/kdb+ for data processing.</li>
-</ul>
-</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="row experience">
-    
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
-    
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-
-              <div class="section-subheading card-title exp-title text-muted my-0">Software Developer</div>
-              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.morganstanley.com/" target="_blank" rel="noopener">Morgan Stanley</a></div>
-              <div class="text-muted exp-meta">
-                December 2016 –
-                
-                  October 2017
-                
-                
-                  <span class="middot-divider"></span>
-                  <span>Budapest</span>
-                
-              </div>
-
-          <div class="card-text">Implemented and unit-tested features for the Java-based margin calculator microservice.</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="row experience">
-    
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
-    
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-
-              <div class="section-subheading card-title exp-title text-muted my-0">Technology Analyst Program</div>
-              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.morganstanley.com/" target="_blank" rel="noopener">Morgan Stanley</a></div>
-              <div class="text-muted exp-meta">
-                August 2016 –
-                
-                  December 2016
-                
-                
-                  <span class="middot-divider"></span>
-                  <span>New York and London</span>
-                
-              </div>
-
-          <div class="card-text">Participated in a 15-week annual grad program among 50 globally selected interview-passing students.</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="row experience">
-    
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col ">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
-    
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-
-              <div class="section-subheading card-title exp-title text-muted my-0">Junior Teaching Assistant</div>
-              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.pmf.unizg.hr/math" target="_blank" rel="noopener">University of Zagreb, Department of Mathematics</a></div>
-              <div class="text-muted exp-meta">
-                October 2013 –
-                
-                  March 2014
-                
-                
-                  <span class="middot-divider"></span>
-                  <span>Zagreb</span>
-                
-              </div>
-
-          <div class="card-text">Selected to deliver problem-solving lectures by achieving the highest course score among 70 students.</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  
-</div>
-
-
-  
-    </div>
-  
-
-  </div>
-</section>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="hobbies" class="home-section wg-collection  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  ">
-    
-      
-        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">Hobbies</h1>
-          
-        </div>
-      
-    
-  
-
-    
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/hobby/chess/" >Chess</a>
-    </div>
-
-    
-    <a href="/hobby/chess/"  class="summary-link">
-      <div class="article-style">
-        <p><strong>Challenge</strong>: Find a solution such that white to move wins.</p>
-<p>I am happy to hear your solution if you can solve it even with the assistance of an engine! I am also open to discussing why many modern engines fail to solve it.</p>
-<ul>
-<li>Won silver medal at individual Croatian junior (under 20 years) championship in 2011.</li>
-<li>Played in Croatian, German, Hungarian and Swiss leagues.</li>
-<li>The <a href="https://ratings.fide.com/profile/14517876" target="_blank" rel="noopener">official Elo</a> rating of 2250 places me among the top 3% of globally registered chess players.</li>
-<li>A personal best Elo rating of 2585 on <a href="www.chess.com">www.chess.com</a> ranks me within 3 thousand best players on the platform among over 100 million registered users (99.999% percentile).</li>
-</ul>
-
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
       
         
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
       
-    
-    Mar 26, 2023
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
       
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
       
-      <a href="/hobby/chess/" >
-        <img src="/hobby/chess/featured_hua471ace41d9b157cc3d5df0bddb82e6d_83732_150x0_resize_q75_h2_lanczos.webp" height="150" width="150"
-            alt="Chess" loading="lazy">
-      </a>
-    
-  </div>
-</div>
-
-  
-
-  
-  
-  
-
-</div>
-
-
-  
-    </div>
-  
-
-  </div>
-</section>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="contact" class="home-section wg-contact  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  ">
-    
       
-        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">Contact</h1>
-          
-        </div>
       
-    
-  
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="col-12 col-lg-8">
-  
-
-  
-
-  <ul class="fa-ul">
-
-    
-    <li>
-      <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
-      <span id="person-email"><a href="mailto:mjusup@ethz.ch">mjusup@ethz.ch</a></span>
-    </li>
-    
-
-    
-
-    
-    
+        
+        
       
       <li>
-        <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address">Stefano-Franscini-Platz 5, Zurich, 8093</span>
+        <a href="/matej.jusup@gmail.com"  aria-label="at-symbol"
+            data-toggle="tooltip" data-placement="top" title="E-mail Me">
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M16.5 12a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25"/></svg>
+        </a>
       </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://github.com/mjusup1501" target="_blank" rel="noopener" aria-label="brands/github"
+           >
+          <svg style="height: 1.5rem;" fill="currentColor" viewBox="3 3 18 18"><path d="M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z"></path></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://www.linkedin.com/in/matej-jusup" target="_blank" rel="noopener" aria-label="brands/linkedin"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://scholar.google.com/citations?user=gXzUTZ8AAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="academicons/google-scholar"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M343.759 106.662V79.43L363.524 64h-213.89L20.476 176.274h85.656a82.339 82.339 0 0 0-.219 6.225c0 20.845 7.22 38.087 21.672 51.861c14.453 13.797 32.252 20.648 53.327 20.648c4.923 0 9.75-.368 14.438-1.024c-2.907 6.5-4.374 12.523-4.374 18.142c0 9.875 4.499 20.43 13.467 31.642c-39.234 2.67-68.061 9.732-86.437 21.163c-10.531 6.5-19 14.704-25.39 24.531c-6.391 9.9-9.578 20.515-9.578 31.962c0 9.648 2.062 18.336 6.219 26.062c4.156 7.726 9.578 14.07 16.312 18.984c6.718 4.968 14.469 9.101 23.219 12.469c8.734 3.344 17.406 5.718 26.061 7.062A167.052 167.052 0 0 0 180.555 448c13.469 0 26.953-1.734 40.547-5.187c13.562-3.485 26.28-8.642 38.171-15.493c11.86-6.805 21.515-16.086 28.922-27.718c7.39-11.68 11.094-24.805 11.094-39.336c0-11.016-2.25-21.039-6.75-30.14c-4.468-9.073-9.938-16.542-16.452-22.345c-6.501-5.813-13-11.155-19.516-15.968c-6.5-4.845-12-9.75-16.468-14.813c-4.485-5.046-6.735-10.054-6.735-14.984c0-4.921 1.734-9.672 5.216-14.265c3.455-4.61 7.674-9.048 12.61-13.306c4.937-4.25 9.875-8.968 14.796-14.133c4.922-5.147 9.141-11.827 12.61-20.008c3.485-8.18 5.203-17.445 5.203-27.757c0-13.453-2.547-24.46-7.547-33.314c-.594-1.022-1.218-1.803-1.875-3.022l56.907-46.672v17.119c-7.393.93-6.624 5.345-6.624 10.635V245.96c0 5.958 4.875 10.834 10.834 10.834h3.989c5.958 0 10.833-4.875 10.833-10.834V117.293c0-5.277.778-9.688-6.561-10.63zm-107.36 222.48c1.14.75 3.704 2.78 7.718 6.038c4.05 3.243 6.797 5.695 8.266 7.414a443.553 443.553 0 0 1 6.376 7.547c2.813 3.375 4.718 6.304 5.718 8.734c1 2.477 2.016 5.461 3.047 8.946a38.27 38.27 0 0 1 1.485 10.562c0 17.048-6.564 29.68-19.656 37.859c-13.125 8.18-28.767 12.274-46.938 12.274c-9.187 0-18.203-1.093-27.063-3.196c-8.843-2.116-17.311-5.336-25.39-9.601c-8.078-4.258-14.577-10.204-19.5-17.797c-4.938-7.64-7.407-16.415-7.407-26.25c0-10.32 2.797-19.29 8.422-26.906c5.594-7.625 12.938-13.391 22.032-17.315c9.063-3.946 18.25-6.742 27.562-8.398a157.865 157.865 0 0 1 28.438-2.555c4.47 0 7.936.25 10.405.696c.455.219 3.032 2.07 7.735 5.563c4.704 3.462 7.625 5.595 8.75 6.384zm-3.359-100.579c-7.406 8.86-17.734 13.288-30.953 13.288c-11.86 0-22.298-4.764-31.266-14.312c-9-9.523-15.422-20.328-19.344-32.43c-3.937-12.109-5.906-23.984-5.906-35.648c0-13.694 3.596-25.352 10.781-34.976c7.187-9.65 17.5-14.485 30.938-14.485c11.875 0 22.374 5.038 31.437 15.157c9.094 10.085 15.61 21.413 19.517 33.968c3.922 12.54 5.873 24.53 5.873 35.984c0 13.446-3.702 24.61-11.076 33.454z"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://orcid.org/0000-0002-3779-5041" target="_blank" rel="noopener" aria-label="academicons/orcid"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M336.62 194.538c-7.13-3.328-13.866-5.56-20.253-6.614c-6.365-1.095-16.574-1.612-30.71-1.612h-36.704v152.747h37.634c14.673 0 26.081-1.013 34.224-3.017c8.142-2.004 14.921-4.526 20.356-7.626a69.448 69.448 0 0 0 14.942-11.388c14.488-14.714 21.742-33.273 21.742-55.717c0-22.052-7.44-40.052-22.341-53.982c-5.498-5.166-11.822-9.444-18.89-12.793zM256 8C119.022 8 8 119.042 8 256s111.022 248 248 248s248-111.042 248-248S392.978 8 256 8Zm-82.336 357.513h-29.389V160.148h29.389zM158.95 138.696c-11.14 0-20.213-9.01-20.213-20.212c0-11.118 9.052-20.191 20.213-20.191c11.18 0 20.232 9.052 20.232 20.191a20.194 20.194 0 0 1-20.232 20.212zm241.386 163.597c-5.29 12.545-12.834 23.581-22.65 33.088c-9.982 9.837-21.597 17.194-34.844 22.196c-7.75 3.017-14.839 5.063-21.307 6.117c-6.49 1.013-18.828 1.509-37.076 1.509h-64.956V160.148h69.233c27.962 0 50.034 4.154 66.32 12.545c16.265 8.37 29.181 20.728 38.792 36.972c9.61 16.265 14.425 34.018 14.425 53.196c.023 13.765-2.666 26.908-7.936 39.432z"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://x.com/matejjusup" target="_blank" rel="noopener" aria-label="brands/x"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://bsky.app/profile/matejjusup.bsky.social" target="_blank" rel="noopener" aria-label="brands/bluesky"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 568 501"> <path fill="currentColor" d="M123.121 33.6637C188.241 82.5526 258.281 181.681 284 234.873C309.719 181.681 379.759 82.5526 444.879 33.6637C491.866 -1.61183 568 -28.9064 568 57.9464C568 75.2916 558.055 203.659 552.222 224.501C531.947 296.954 458.067 315.434 392.347 304.249C507.222 323.8 536.444 388.56 473.333 453.32C353.473 576.312 301.061 422.461 287.631 383.039C285.169 375.812 284.017 372.431 284 375.306C283.983 372.431 282.831 375.812 280.369 383.039C266.939 422.461 214.527 576.312 94.6667 453.32C31.5556 388.56 60.7778 323.8 175.653 304.249C109.933 315.434 36.0535 296.954 15.7778 224.501C9.94525 203.659 0 75.2916 0 57.9464C0 -28.9064 76.1345 -1.61183 123.121 33.6637Z"/></svg>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  </div>
+
+  <div class="flex-auto max-w-prose md:mt-12">
+    
+    <div class="pt-2 justify-content-center prose prose-slate dark:prose-invert">
+      <div class="bio-text" >
+        <h2 id="about-me">About Me</h2>
+<p style="text-align: justify;">I co-developed a <a href="https://gemini.google.com/gem/chess-champ" target="_blank" rel="noopener">Chess Champ Gem</a> for Gemini, which enhances language models with search-based planning techniques to improve multi-step reasoning in board games such as Chess, Chess960, Connect Four, and Hex. It achieves Grandmaster-level performance in Chess with a search move count per decision comparable to human players. This work was part of my student research at Google hosted by <a href="https://ericmalmi.com/" target="_blank" rel="noopener">Eric Malmi</a> and <a href="https://scholar.google.com/citations?user=EoVDI3MAAAAJ&amp;hl=en" target="_blank" rel="noopener">Aliaksei Severyn</a>.</p>
+<p style="text-align: justify;">I am a PhD student at <a href="https://ethz.ch/en.html" target="_blank" rel="noopener">ETH Zurich</a> and an Associated Researcher at <a href="https://ai.ethz.ch/" target="_blank" rel="noopener">ETH AI Center</a>, supervised by <a href="https://francescocorman.eu/" target="_blank" rel="noopener">Prof. Francesco Corman</a> and <a href="https://las.inf.ethz.ch/krausea" target="_blank" rel="noopener">Prof. Andreas Krause</a>.</p>
+<p style="text-align: justify;">Before starting a PhD, I worked as a Quantitative Researcher at <a href="https://www.morganstanley.com/" target="_blank" rel="noopener">Morgan Stanley</a> and as a team-lead Data Scientist in a tech startup, <a href="https://cantabpi.com/" target="_blank" rel="noopener">Cantab Predictive Intelligence</a>.</p>
+
+      </div>
+    </div>
     
 
     
-    <li>
-      <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
-      <span>Find me at Honngerberg campus HIL F 12.2</span>
-    </li>
+    <a href="uploads/matej_jusup_cv.pdf" target="_blank" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="w-3.5 h-3.5 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+      <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"/>
+      <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+    </svg> Download CV</a>
+    
+
+
+
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 justify-between mt-6 dark:text-gray-300">
+
+    
+    <div class="">
+      <div class="section-subheading mb-3">Interests</div>
+      <ul class="list-disc list-inside space-y-1 pl-5">
+        
+        <li>
+          Artificial Intelligence
+        </li>
+        
+        <li>
+          Reinforcement Learning
+        </li>
+        
+        <li>
+          Large Language Models
+        </li>
+        
+        <li>
+          Planning and Reasoning (with LLMs)
+        </li>
+        
+        <li>
+          Sequential Decision Making
+        </li>
+        
+        <li>
+          Multi-Agent Systems
+        </li>
+        
+        <li>
+          Probabilistic Learning
+        </li>
+        
+        <li>
+          Safe Learning
+        </li>
+        
+        <li>
+          Data-Driven Algorithms
+        </li>
+        
+        <li>
+          AI in Board Games
+        </li>
+        
+        <li>
+          Mean-Field Control
+        </li>
+        
+      </ul>
+    </div>
     
 
     
-
+    <div class="">
+      <div class="section-subheading mb-3">Education</div>
+      <ul class="">
+        
+        <li class="flex items-start gap-3">
+          <svg style="" class='flex-shrink-0 w-5 h-5 me-2 mt-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+          <div class="description">
+            <p class="course">PhD in Artificial Intelligence (expected gradunation: June 2025)</p>
+            <p class="text-sm">ETH Zurich</p>
+          </div>
+        </li>
+        
+        <li class="flex items-start gap-3">
+          <svg style="" class='flex-shrink-0 w-5 h-5 me-2 mt-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+          <div class="description">
+            <p class="course">MSc in Mathematical Statistics (graduated with honors)</p>
+            <p class="text-sm">University of Zagreb</p>
+          </div>
+        </li>
+        
+        <li class="flex items-start gap-3">
+          <svg style="" class='flex-shrink-0 w-5 h-5 me-2 mt-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+          <div class="description">
+            <p class="course">Visiting Student</p>
+            <p class="text-sm">University of Bielefeld</p>
+          </div>
+        </li>
+        
+        <li class="flex items-start gap-3">
+          <svg style="" class='flex-shrink-0 w-5 h-5 me-2 mt-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+          <div class="description">
+            <p class="course">BSc in Mathematics</p>
+            <p class="text-sm">University of Zagreb</p>
+          </div>
+        </li>
+        
+      </ul>
+    </div>
     
 
-    
-    
+  </div>
 
-  </ul>
+</div>
+</div>
+
 
   
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+
+
+
+  
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="papers" class="relative hbb-section blox-collection  dark" style="padding: 3rem 0 3rem 0;" >
+ <div class="home-section-bg  bg-image" style="background-color: black;background-image: url(&#39;https://matej-jusup.com/media/stacked-peaks.svg&#39;);background-size: cover;background-position: center;filter: brightness(0.5);">
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Featured Papers
+  </div>
+
+  
+</div>
+
+
+<div class="flex flex-col items-center px-6">
+
+  
+  <div class="container max-w-[65ch] mx-auto bg-white dark:bg-zinc-900 rounded-xl border-gray-100 dark:border-gray-700 border shadow-md overflow-hidden my-5">
+
+
+  
+    
+
+
+
+
+
+
+
+
+<a href="/publication/mastering_chess2024/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/publication/mastering_chess2024/featured_hu_dbc10946d82b23f5.webp" height="655" width="655" alt="Mastering Board Games by External and Internal Planning with Language Models">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Mastering Board Games by External and Internal Planning with Language Models</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        ICML 2025 (Spotlight)</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">May 23, 2025</p>
+    </div>
+  </div>
+</a>
+
+  
+    
+
+
+
+
+
+
+
+
+<a href="/publication/mfrl_rebalancing2025/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/publication/mfrl_rebalancing2025/featured_hu_7edf6a79974ca56b.webp" height="655" width="655" alt="Ride-Sourcing Vehicle Rebalancing with Service Accessibility Guarantees via Constrained Mean-Field Reinforcement Learning">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Ride-Sourcing Vehicle Rebalancing with Service Accessibility Guarantees via Constrained Mean-Field Reinforcement Learning</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        arXiv preprint</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Apr 1, 2025</p>
+    </div>
+  </div>
+</a>
+
+  
+    
+
+
+
+
+
+
+
+
+<a href="/publication/aamas2024/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/publication/aamas2024/featured_hu_49a13b4ad8ed6d9f.webp" height="655" width="655" alt="Safe Model-Based Multi-Agent Mean-Field Reinforcement Learning">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Safe Model-Based Multi-Agent Mean-Field Reinforcement Learning</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        AAMAS 2024 (Oral)</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Dec 26, 2023</p>
+    </div>
+  </div>
+</a>
+
+  
+
+  </div>
+
+
+</div>
+
+
+
+
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="talks" class="relative hbb-section blox-collection  " style="padding: 3rem 0 3rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Recent &amp; Upcoming Talks
+  </div>
+
+  
+</div>
+
+
+<div class="flex flex-col items-center px-6">
+
+  
+  <div class="mt-16 sm:mt-20 w-fit">
+  <div class="flex max-w-3xl flex-col space-y-16">
+
+
+  
+    
+
+
+
+ 
+<article class="md:grid md:grid-cols-4 md:items-baseline">
+  <div class="md:col-span-3 group relative flex flex-col items-start">
+    <h2 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+      <div
+        class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
+      <a href="/event/croai_2025/"><span
+        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span class="relative z-10">CroAI – ML Pub Meetup</span></a>
+    </h2>
+    
+    
+    
+    <div class="md:hidden relative z-10 order-first mb-3 flex flex-col items-start text-sm text-zinc-400 dark:text-zinc-500 pl-1">
+      
+      <div class="event-location mb-0.5">Zagreb, Croatia</div> 
+      
+      <time datetime="2025-06-03">
+        Jun 3, 2025
+      </time>
+    </div>
+    
+    <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">Invited talk on Superhuman Planning with Large Language Models hosted by CroAI.</p>
+    <div aria-hidden="true" class="relative z-10 mt-4 flex items-center text-sm font-medium text-primary-500">
+    Read more
+      <svg aria-hidden="true" class="ml-1 h-4 w-4 stroke-current" fill="none" viewBox="0 0 16 16">
+        <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+      </svg>
+    </div>
+  </div>
+  
+  
+  
+  <div class="mt-1 hidden md:block relative z-10 order-first mb-3 text-sm text-zinc-400 dark:text-zinc-500">
+    
+    <div class="event-location mb-0.5">Zagreb, Croatia</div> 
+    
+    <time datetime="2025-06-03">
+      Jun 3, 2025
+    </time>
+  </div>
+  
+</article>
+
+  
+    
+
+
+
+ 
+<article class="md:grid md:grid-cols-4 md:items-baseline">
+  <div class="md:col-span-3 group relative flex flex-col items-start">
+    <h2 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+      <div
+        class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
+      <a href="/event/ai_center_2025/"><span
+        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span class="relative z-10">ETH Zurich AI Center Associated Researchers Meetup</span></a>
+    </h2>
+    
+    
+    
+    <div class="md:hidden relative z-10 order-first mb-3 flex flex-col items-start text-sm text-zinc-400 dark:text-zinc-500 pl-1">
+      
+      <div class="event-location mb-0.5">Zurich, Switzerland</div> 
+      
+      <time datetime="2025-05-22">
+        May 22, 2025
+      </time>
+    </div>
+    
+    <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">Invited talk on Mastering Board Games With Language Models hosted by ETH AI Center.</p>
+    <div aria-hidden="true" class="relative z-10 mt-4 flex items-center text-sm font-medium text-primary-500">
+    Read more
+      <svg aria-hidden="true" class="ml-1 h-4 w-4 stroke-current" fill="none" viewBox="0 0 16 16">
+        <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+      </svg>
+    </div>
+  </div>
+  
+  
+  
+  <div class="mt-1 hidden md:block relative z-10 order-first mb-3 text-sm text-zinc-400 dark:text-zinc-500">
+    
+    <div class="event-location mb-0.5">Zurich, Switzerland</div> 
+    
+    <time datetime="2025-05-22">
+      May 22, 2025
+    </time>
+  </div>
+  
+</article>
+
+  
+    
+
+
+
+ 
+<article class="md:grid md:grid-cols-4 md:items-baseline">
+  <div class="md:col-span-3 group relative flex flex-col items-start">
+    <h2 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+      <div
+        class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
+      <a href="/event/zurich_nlp_2025/"><span
+        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span class="relative z-10">ZurichNLP Meetup</span></a>
+    </h2>
+    
+    
+    
+    <div class="md:hidden relative z-10 order-first mb-3 flex flex-col items-start text-sm text-zinc-400 dark:text-zinc-500 pl-1">
+      
+      <div class="event-location mb-0.5">Zurich, Switzerland</div> 
+      
+      <time datetime="2025-02-20">
+        Feb 20, 2025
+      </time>
+    </div>
+    
+    <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">Invited talk on Mastering Board Games With Language Models hosted by ZurichAI.</p>
+    <div aria-hidden="true" class="relative z-10 mt-4 flex items-center text-sm font-medium text-primary-500">
+    Read more
+      <svg aria-hidden="true" class="ml-1 h-4 w-4 stroke-current" fill="none" viewBox="0 0 16 16">
+        <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+      </svg>
+    </div>
+  </div>
+  
+  
+  
+  <div class="mt-1 hidden md:block relative z-10 order-first mb-3 text-sm text-zinc-400 dark:text-zinc-500">
+    
+    <div class="event-location mb-0.5">Zurich, Switzerland</div> 
+    
+    <time datetime="2025-02-20">
+      Feb 20, 2025
+    </time>
+  </div>
+  
+</article>
+
+  
+    
+
+
+
+ 
+<article class="md:grid md:grid-cols-4 md:items-baseline">
+  <div class="md:col-span-3 group relative flex flex-col items-start">
+    <h2 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+      <div
+        class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
+      <a href="/event/neurips2024/"><span
+        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span class="relative z-10">Google DeepMind Booth at NeurIPS 2024</span></a>
+    </h2>
+    
+    
+    
+    <div class="md:hidden relative z-10 order-first mb-3 flex flex-col items-start text-sm text-zinc-400 dark:text-zinc-500 pl-1">
+      
+      <div class="event-location mb-0.5">Vancouver, Canada</div> 
+      
+      <time datetime="2024-12-11">
+        Dec 11, 2024
+      </time>
+    </div>
+    
+    <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">A talk on Mastering Chess With Language Models.</p>
+    <div aria-hidden="true" class="relative z-10 mt-4 flex items-center text-sm font-medium text-primary-500">
+    Read more
+      <svg aria-hidden="true" class="ml-1 h-4 w-4 stroke-current" fill="none" viewBox="0 0 16 16">
+        <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+      </svg>
+    </div>
+  </div>
+  
+  
+  
+  <div class="mt-1 hidden md:block relative z-10 order-first mb-3 text-sm text-zinc-400 dark:text-zinc-500">
+    
+    <div class="event-location mb-0.5">Vancouver, Canada</div> 
+    
+    <time datetime="2024-12-11">
+      Dec 11, 2024
+    </time>
+  </div>
+  
+</article>
+
+  
+    
+
+
+
+ 
+<article class="md:grid md:grid-cols-4 md:items-baseline">
+  <div class="md:col-span-3 group relative flex flex-col items-start">
+    <h2 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+      <div
+        class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
+      <a href="/event/aamas2024/"><span
+        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span class="relative z-10">The 23rd International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS 2024)</span></a>
+    </h2>
+    
+    
+    
+    <div class="md:hidden relative z-10 order-first mb-3 flex flex-col items-start text-sm text-zinc-400 dark:text-zinc-500 pl-1">
+      
+      <div class="event-location mb-0.5">Auckland, New Zealand</div> 
+      
+      <time datetime="2024-05-10">
+        May 10, 2024
+      </time>
+    </div>
+    
+    <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">A conference talk on a Safe Model-Based Multi-Agent Mean-Field Reinforcement Learning.</p>
+    <div aria-hidden="true" class="relative z-10 mt-4 flex items-center text-sm font-medium text-primary-500">
+    Read more
+      <svg aria-hidden="true" class="ml-1 h-4 w-4 stroke-current" fill="none" viewBox="0 0 16 16">
+        <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+      </svg>
+    </div>
+  </div>
+  
+  
+  
+  <div class="mt-1 hidden md:block relative z-10 order-first mb-3 text-sm text-zinc-400 dark:text-zinc-500">
+    
+    <div class="event-location mb-0.5">Auckland, New Zealand</div> 
+    
+    <time datetime="2024-05-10">
+      May 10, 2024
+    </time>
+  </div>
+  
+</article>
+
+  
+
+  </div>
+</div>
+
+
+</div>
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+  
+  
+    
+  
+
+  
+
+  <div class="container mx-auto max-w-screen-lg px-8 xl:px-5 pb-5 lg:pb-8">
+    <div class="mt-10 flex justify-center">
+      <a
+        class="relative inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-3 py-2 pl-4 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20 dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300"
+        href="/event/">
+          <span>See all events</span>
+        </a>
+      </div>
+  </div>
+
+
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+
+
+
+  
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="experience" class="relative hbb-section blox-resume-experience  dark" style="padding: 3rem 0 3rem 0;" >
+ <div class="home-section-bg  bg-image" style="background-color: black;background-image: url(&#39;https://matej-jusup.com/media/stacked-peaks.svg&#39;);background-size: cover;background-position: center;filter: brightness(0.5);">
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto">
+
+
+
+
+
+<div class="flex flex-col lg:gap-x-6 w-100 px-6 sm:px-0 ">
+
+
+<div class="w-full">
+  <h3 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">Experience</h3>
+  <ol class="relative border-s border-gray-200 dark:border-gray-700">
+    
+    <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+        </span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">Student Researcher
+        
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">Google</span>
+      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        
+          April 2024 –
+        
+        
+          September 2024
+        
+      </time>
+      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><ul>
+<li><strong>Key Contribution:</strong> The first LLM that plays chess at the world champion level using human search budget.</li>
+<li><strong>Hosts:</strong> <a href="https://scholar.google.fi/citations?user=8nfCufAAAAAJ&amp;hl=en" target="_blank" rel="noopener">Eric Malmi</a> and <a href="https://scholar.google.com/citations?user=EoVDI3MAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener">Aliaksei Severyn</a></li>
+<li><strong>Publication:</strong> First co-author of a spotlight paper at ICML 2025 — <a href="https://arxiv.org/abs/2412.12119" target="_blank" rel="noopener">https://arxiv.org/abs/2412.12119</a></li>
+<li><strong>Planning with LLMs:</strong> Enhanced LLMs with search-based planning techniques to improve multi-step reasoning.</li>
+<li><strong>Asynchronous MCTS:</strong> Introduced dynamic virtual counts to balance exploration–exploitation with few simulations.</li>
+<li><strong>Prompt Engineering:</strong> Assisted in designing board-game prompts and test-time internal search linearization.</li>
+<li><strong>Technology Stack:</strong> Python, Transformer Pre-Training, Supervised Fine-Tuning, Tree-Search Methods</li>
+</ul>
+</div>
+
+      
+
+    </li>
+    
+    <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+        </span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">Team Lead AI Researcher
+        
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">Cantab Predictive Intelligence (tech startup)</span>
+      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        
+          March 2019 –
+        
+        
+          July 2020
+        
+      </time>
+      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><ul>
+<li><strong>Key Contribution:</strong> Lead a team of four researchers on a few projects running in parallel.</li>
+<li><strong>Behavioral Credit Scoring:</strong> Gradient-boosting model for default risk, achieving a market-leading Gini of 75%.</li>
+<li><strong>AI-Driven Marketing:</strong> Boosted heart drug sales by 10% via data-driven A/B-tested campaign for pharma client.</li>
+<li><strong>Personalized Newsletter:</strong> Built a hybrid recommender (content-based + collaborative); 1.5% CTR in PoC.</li>
+<li><strong>Delivery Delay Estimation:</strong> Predicted COVID-era mall delays using ARIMA and supervised learning.</li>
+<li><strong>Technology Stack:</strong> Python, PyTorch, PySpark, Databricks, Statsmodels, AWS/Azure, Sklearn, Numpy, Pandas, Git</li>
+</ul>
+</div>
+
+      
+
+    </li>
+    
+    <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+        </span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">Quantitative Researcher
+        
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">Morgan Stanley</span>
+      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        
+          October 2017 –
+        
+        
+          March 2019
+        
+      </time>
+      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><ul>
+<li><strong>Key Contribution:</strong> Built scalable models for risk, liquidity, and trade execution in financial systems.</li>
+<li><strong>Systemic Risk Model:</strong> Built a parallel hill climber heuristic, solving the problem in 3 minutes, averaging 5% from optimal.</li>
+<li><strong>Cash Traceability System:</strong> Developed a real-time uncollateralized debt tracker from daily data feeds.</li>
+<li><strong>E-Trading Limits Calibration:</strong> Tuned model to block high-risk trades via statistical analysis of client behavior.</li>
+<li><strong>Listed Derivatives Liquidity:</strong> Developed a PoC liquidation model driven by intraday futures data.</li>
+<li><strong>Technology Stack:</strong> Python, CPLEX, OR-Tools, Q/kdb+, PyQ, SQL, Pandas</li>
+</ul>
+</div>
+
+      
+
+    </li>
+    
+    <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+        </span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">Software Engineer
+        
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">Morgan Stanley</span>
+      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        
+          August 2016 –
+        
+        
+          September 2017
+        
+      </time>
+      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><ul>
+<li><strong>Annual Grad Program:</strong> Participated in a 15-week program for 50 globally selected students.</li>
+<li><strong>Margin Calculator Microservice:</strong> Implemented and unit-tested features for NYSE and HGK stock exchanges.</li>
+<li><strong>Technology Stack:</strong> Java, C++, Spring Beans, JUnit</li>
+</ul>
+</div>
+
+      
+
+    </li>
+    
+    <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+        </span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">Junior Teaching Assistant
+        
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">University of Zagreb, Department of Mathematics</span>
+      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        
+          October 2013 –
+        
+        
+          March 2014
+        
+      </time>
+      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><ul>
+<li><strong>Euclidean Spaces:</strong> Delivered problem-solving lectures after achieving the top score in a class of 70.</li>
+</ul>
+</div>
+
+      
+
+    </li>
+    
+  </ol>
+</div>
+
+
+
+<div class="w-full">
+  <h3 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">Education</h3>
+    <ol class="relative border-s border-gray-200 dark:border-gray-700">
+      
+      <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"></path></svg>
+            </svg>
+        </span>
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">PhD in Artificial Intelligence (expected gradunation: June 2025)
+
+        </h3>
+        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">ETH Zurich</span>
+        <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+          
+            September 2020 –
+          
+          
+            Present
+          
+        </time>
+        <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose prose-slate dark:prose-invert"><ul>
+<li><strong>Key Contribution:</strong> Operating a fleet of tens of thousands of agents in real time while satisfying safety constraints.</li>
+<li><strong>Thesis:</strong> Safe and Scalable Ride-Sourcing Vehicle Rebalancing: A Constrained Mean-Field RL Approach</li>
+<li><strong>Supervisors:</strong> <a href="https://scholar.google.com/citations?user=5Q2grMIAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener">Prof. Francesco Corman</a> and <a href="https://scholar.google.com/citations?user=eDHv58AAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener">Prof. Andreas Krause</a></li>
+<li><strong>Research Area:</strong> Reinforcement Learning, Multi-Agent Systems, Sequential Decision Making, Data-Driven Algorithms</li>
+</ul>
+</div>
+
+        
+
+      </li>
+      
+      <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"></path></svg>
+            </svg>
+        </span>
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">MSc in Mathematical Statistics (graduated with honors)
+
+        </h3>
+        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">University of Zagreb</span>
+        <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+          
+            October 2013 –
+          
+          
+            February 2017
+          
+        </time>
+        <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose prose-slate dark:prose-invert"><ul>
+<li><strong>Thesis:</strong> Network Optimization in Railway Transport Planning</li>
+<li><strong>Supervisor:</strong> <a href="https://scholar.google.ch/citations?user=Q3tzn3IAAAAJ&amp;hl=en" target="_blank" rel="noopener">Prof. Marko Vrdoljak</a></li>
+</ul>
+</div>
+
+        
+        <a href="https://repozitorij.pmf.unizg.hr/islandora/object/pmf:3488" target="_blank" rel="noopener" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="w-3.5 h-3.5 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"/>
+          <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+        </svg> Read Thesis</a>
+        
+
+      </li>
+      
+      <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"></path></svg>
+            </svg>
+        </span>
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Visiting Student
+
+        </h3>
+        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">University of Bielefeld</span>
+        <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+          
+            September 2015 –
+          
+          
+            July 2016
+          
+        </time>
+        <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose prose-slate dark:prose-invert"><ul>
+<li><strong>Research Visit:</strong> Two semesters funded by Erasmus+ during which I wrote my MSc thesis.</li>
+<li><strong>Host:</strong> <a href="https://dblp.org/pid/70/4796.html" target="_blank" rel="noopener">Prof. Andreas Dress</a></li>
+</ul>
+</div>
+
+        
+
+      </li>
+      
+      <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"></path></svg>
+            </svg>
+        </span>
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">BSc in Mathematics
+
+        </h3>
+        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">University of Zagreb</span>
+        <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+          
+            October 2010 –
+          
+          
+            July 2013
+          
+        </time>
+        <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose prose-slate dark:prose-invert"></div>
+
+        
+
+      </li>
+      
+    </ol>
+</div>
+
+
+</div>
 
 </div>
 
 
   
-    </div>
-  
 
-  </div>
+  
 </section>
 
+  
+
+  
+  
+    
 
 
 
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="skills" class="relative hbb-section blox-resume-skills  " style="padding: 3rem 0 3rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Skills
   </div>
 
-  <div class="page-footer">
-    
-    
-    <div class="container">
-      <footer class="site-footer">
-
   
+</div>
 
-
-
-
-
-
-
-
-
-
-
+<div class="flex flex-col lg:flex-row items-center max-w-prose mx-auto gap-3 px-6 md:px-0">
 
   
   
   
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  <p class="powered-by">
+  <div class="w-full lg:w-1/2">
+    <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">
+      Research
+      
+    </div>
     
     
     
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        RL
+        
+      </span>
+      
+      <div class="skills-wrapper" style="border-color: #76c76b">
+        <div class="skills-percent" style="width: 85%; background-color: #90ee90"></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        LLMs
+        
+      </span>
+      
+      <div class="skills-wrapper" style="border-color: #76c76b">
+        <div class="skills-percent" style="width: 60%; background-color: #90ee90"></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        MCTS
+        
+      </span>
+      
+      <div class="skills-wrapper" style="border-color: #76c76b">
+        <div class="skills-percent" style="width: 100%; background-color: #90ee90"></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        Safe RL
+        
+      </span>
+      
+      <div class="skills-wrapper" style="border-color: #76c76b">
+        <div class="skills-percent" style="width: 60%; background-color: #90ee90"></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        MFRL
+        
+      </span>
+      
+      <div class="skills-wrapper" style="border-color: #76c76b">
+        <div class="skills-percent" style="width: 70%; background-color: #90ee90"></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        MFC
+        
+      </span>
+      
+      <div class="skills-wrapper" style="border-color: #76c76b">
+        <div class="skills-percent" style="width: 80%; background-color: #90ee90"></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        BO
+        
+      </span>
+      
+      <div class="skills-wrapper" style="border-color: #76c76b">
+        <div class="skills-percent" style="width: 50%; background-color: #90ee90"></div>
+      </div>
+      
+    </div>
+    
+  </div>
+
+  
+  
+  <div class="w-full lg:w-1/2">
+    <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">
+      Programming
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        Python
+        
+      </span>
+      
+      <div class="skills-wrapper" >
+        <div class="skills-percent" style="width: 90%; "></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        C++
+        
+      </span>
+      
+      <div class="skills-wrapper" >
+        <div class="skills-percent" style="width: 50%; "></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        SQL
+        
+      </span>
+      
+      <div class="skills-wrapper" >
+        <div class="skills-percent" style="width: 70%; "></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        Java
+        
+      </span>
+      
+      <div class="skills-wrapper" >
+        <div class="skills-percent" style="width: 50%; "></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        C
+        
+      </span>
+      
+      <div class="skills-wrapper" >
+        <div class="skills-percent" style="width: 30%; "></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        Bash &amp; CLI
+        
+      </span>
+      
+      <div class="skills-wrapper" >
+        <div class="skills-percent" style="width: 60%; "></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        Q/kdb+
+        
+      </span>
+      
+      <div class="skills-wrapper" >
+        <div class="skills-percent" style="width: 60%; "></div>
+      </div>
+      
+    </div>
+    
+  </div>
+
+  
+  
+  <div class="w-full lg:w-1/2">
+    <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">
+      Cloud &amp; Packages
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        Git
+        
+      </span>
+      
+      <div class="skills-wrapper" style="border-color: #f0bf23">
+        <div class="skills-percent" style="width: 80%; background-color: #eeac02"></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        PyTorch
+        
+      </span>
+      
+      <div class="skills-wrapper" style="border-color: #f0bf23">
+        <div class="skills-percent" style="width: 80%; background-color: #eeac02"></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        AWS &amp; Databricks
+        
+      </span>
+      
+      <div class="skills-wrapper" style="border-color: #f0bf23">
+        <div class="skills-percent" style="width: 40%; background-color: #eeac02"></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        Numpy
+        
+      </span>
+      
+      <div class="skills-wrapper" style="border-color: #f0bf23">
+        <div class="skills-percent" style="width: 90%; background-color: #eeac02"></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        Sklearn
+        
+      </span>
+      
+      <div class="skills-wrapper" style="border-color: #f0bf23">
+        <div class="skills-percent" style="width: 80%; background-color: #eeac02"></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        Pandas
+        
+      </span>
+      
+      <div class="skills-wrapper" style="border-color: #f0bf23">
+        <div class="skills-percent" style="width: 100%; background-color: #eeac02"></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        PySpark
+        
+      </span>
+      
+      <div class="skills-wrapper" style="border-color: #f0bf23">
+        <div class="skills-percent" style="width: 70%; background-color: #eeac02"></div>
+      </div>
+      
+    </div>
+    
+  </div>
+
+</div>
+
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="languages" class="relative hbb-section blox-resume-languages  " style="padding: 3rem 0 3rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Languages
+  </div>
+
+  
+
+  <div class="flex items-center flex-col lg:flex-row gap-x-8">
+    
+    <div class="flex flex-col items-center">
+      <div class="flex items-center justify-center w-28 h-28">
+        <svg class="transform -rotate-90" viewBox="0 0 288 288">
+          <circle cx="145" cy="145" r="120" stroke="currentColor" stroke-width="30" fill="transparent"
+                  class="text-gray-200 dark:text-gray-700" />
+          <circle cx="145" cy="145" r="120" stroke="currentColor" stroke-width="30" fill="transparent"
+                  class="text-primary-600 dark:text-primary-300"
+                  style="stroke-dasharray: calc(2 * 22 / 7 * 120); stroke-dashoffset: calc(((2 * 22 / 7 * 120) * 90/100) - (2 * 22 / 7 * 120))" />
+        </svg>
+        <span class="absolute text-3xl">90%</span>
+      </div>
+      <span class="text-1xl">English</span>
+    </div>
+    
+    <div class="flex flex-col items-center">
+      <div class="flex items-center justify-center w-28 h-28">
+        <svg class="transform -rotate-90" viewBox="0 0 288 288">
+          <circle cx="145" cy="145" r="120" stroke="currentColor" stroke-width="30" fill="transparent"
+                  class="text-gray-200 dark:text-gray-700" />
+          <circle cx="145" cy="145" r="120" stroke="currentColor" stroke-width="30" fill="transparent"
+                  class="text-primary-600 dark:text-primary-300"
+                  style="stroke-dasharray: calc(2 * 22 / 7 * 120); stroke-dashoffset: calc(((2 * 22 / 7 * 120) * 100/100) - (2 * 22 / 7 * 120))" />
+        </svg>
+        <span class="absolute text-3xl">100%</span>
+      </div>
+      <span class="text-1xl">Croatian</span>
+    </div>
+    
+    <div class="flex flex-col items-center">
+      <div class="flex items-center justify-center w-28 h-28">
+        <svg class="transform -rotate-90" viewBox="0 0 288 288">
+          <circle cx="145" cy="145" r="120" stroke="currentColor" stroke-width="30" fill="transparent"
+                  class="text-gray-200 dark:text-gray-700" />
+          <circle cx="145" cy="145" r="120" stroke="currentColor" stroke-width="30" fill="transparent"
+                  class="text-primary-600 dark:text-primary-300"
+                  style="stroke-dasharray: calc(2 * 22 / 7 * 120); stroke-dashoffset: calc(((2 * 22 / 7 * 120) * 10/100) - (2 * 22 / 7 * 120))" />
+        </svg>
+        <span class="absolute text-3xl">10%</span>
+      </div>
+      <span class="text-1xl">German</span>
+    </div>
+    
+  </div>
+
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+      
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+
+
+
+  
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="chess" class="relative hbb-section blox-markdown  dark" style="padding: 3rem 0 3rem 0;" >
+ <div class="home-section-bg  bg-image" style="background-color: black;background-image: url(&#39;https://matej-jusup.com/media/chess-wallpaper-2_hu_e8e6ef1f574b7ec0.webp&#39;);background-size: cover;background-position: center;filter: brightness(0.5);">
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    <strong>Challenge</strong>
+  </div>
+
+  
+  <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose"><figure class="chess-figure-style"><img src="/chess/featured.jpg"
+    alt="Chess puzzle diagram" width="60%"><figcaption>
+      <p>White to move and win.</p>
+    </figcaption>
+</figure>
+
+<div class="small-text">
+Find a solution such that white to move wins.
+<p style="text-align: justify;">I am happy to hear your solution if you can solve it even with the assistance of an engine! I am also open to discussing why many modern engines fail to solve it.</p>
+<p><strong>Computer Chess:</strong></p>
+<p style="text-align: justify;">I co-developed a <a href="https://gemini.google.com/gem/chess-champ" target="_blank" rel="noopener">Chess Champ Gem</a> for Gemini, which enhances language models with search-based planning techniques to improve multi-step reasoning in board games such as Chess, Chess960, Connect Four, and Hex. It achieves Grandmaster-level performance in Chess with a search move count per decision comparable to human players.</p>
+<p><strong>Notable Achievements:</strong></p>
+<ul style="text-align: justify;">
+<li>Silver medalist at the individual Croatian junior (under 20 years) championship in 2011.</li>
+<li>Played in Croatian, German, Hungarian and Swiss leagues.</li>
+<li>A personal best Elo rating of 2585 on <a href="www.chess.com">www.chess.com</a> ranks me within 3 thousand best players on the platform among over 100 million registered users (99.999% percentile).</li>
+<li>The <a href="https://ratings.fide.com/profile/14517876" target="_blank" rel="noopener">official Elo</a> rating of 2250 places me among the top 3% of globally registered chess players.</li>
+</ul>
+</div></div>
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+
+    </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by text-center">
+    © 2025 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by text-center">
+    
+    
+    
       
       
       
       
       
       
-      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
     
   </p>
+
 </footer>
 
     </div>
+
     
-  </div>
+    
 
-  
 
 
-<script src="/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js"></script>
 
 
 
 
-  
 
-  
-  
 
-  
 
 
-
-
-
-
-
-
-
-
-
-
-
-  
-  <script id="search-hit-fuse-template" type="text/x-template">
-    <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
-          <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
-        </div>
-      </div>
-    </div>
-  </script>
-  
-    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-<script id="page-data" type="application/json">{"use_headroom":false}</script>
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-<script src="/en/js/wowchemy.min.2874310ae8b20e08948b8e82aa4b36db.js"></script>
-
-
-
-
-
-
-
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        
-        <pre><code></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
+  </body>
 </html>
