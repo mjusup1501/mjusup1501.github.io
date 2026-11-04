@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Hugo Academic CV Theme</title>
-    <link>https://matej-jusup.com/publication/</link>
-      <atom:link href="https://matej-jusup.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/publication/</link>
+      <atom:link href="http://localhost:1313/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 23 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://matej-jusup.com/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Publications</title>
-      <link>https://matej-jusup.com/publication/</link>
+      <link>http://localhost:1313/publication/</link>
     </image>
     
     <item>
       <title>Mastering Board Games by External and Internal Planning with Language Models</title>
-      <link>https://matej-jusup.com/publication/mastering_chess2024/</link>
+      <link>http://localhost:1313/publication/mastering_chess2024/</link>
       <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/mastering_chess2024/</guid>
+      <guid>http://localhost:1313/publication/mastering_chess2024/</guid>
       <description>&lt;!-- 
 
 
@@ -55,9 +55,9 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     
     <item>
       <title>Ride-Sourcing Vehicle Rebalancing with Service Accessibility Guarantees via Constrained Mean-Field Reinforcement Learning</title>
-      <link>https://matej-jusup.com/publication/mfrl_rebalancing2025/</link>
+      <link>http://localhost:1313/publication/mfrl_rebalancing2025/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/mfrl_rebalancing2025/</guid>
+      <guid>http://localhost:1313/publication/mfrl_rebalancing2025/</guid>
       <description>&lt;!-- 
 
 
@@ -96,9 +96,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Mean-Field Bayesian Optimisation</title>
-      <link>https://matej-jusup.com/publication/mfbo2025/</link>
+      <link>http://localhost:1313/publication/mfbo2025/</link>
       <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/mfbo2025/</guid>
+      <guid>http://localhost:1313/publication/mfbo2025/</guid>
       <description>&lt;!-- 
 
 
@@ -137,9 +137,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Monte Carlo Planning for Stochastic Control on Constrained Markov Decision Processes</title>
-      <link>https://matej-jusup.com/publication/stochastic_control2024/</link>
+      <link>http://localhost:1313/publication/stochastic_control2024/</link>
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/stochastic_control2024/</guid>
+      <guid>http://localhost:1313/publication/stochastic_control2024/</guid>
       <description>&lt;!-- 
 
 
@@ -178,9 +178,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Safe Model-Based Multi-Agent Mean-Field Reinforcement Learning</title>
-      <link>https://matej-jusup.com/publication/aamas2024/</link>
+      <link>http://localhost:1313/publication/aamas2024/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/aamas2024/</guid>
+      <guid>http://localhost:1313/publication/aamas2024/</guid>
       <description>&lt;!-- 
 
 
@@ -219,9 +219,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Efficient Planning in Combinatorial Action Spaces with Applications to Cooperative Multi-Agent Reinforcement Learning</title>
-      <link>https://matej-jusup.com/publication/aistats2023/</link>
+      <link>http://localhost:1313/publication/aistats2023/</link>
       <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/aistats2023/</guid>
+      <guid>http://localhost:1313/publication/aistats2023/</guid>
       <description>&lt;!-- 
 
 
@@ -260,9 +260,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Real-time railway (re-) scheduling without human-expert knowledge</title>
-      <link>https://matej-jusup.com/publication/strc2022/</link>
+      <link>http://localhost:1313/publication/strc2022/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/strc2022/</guid>
+      <guid>http://localhost:1313/publication/strc2022/</guid>
       <description>&lt;!-- 
 
 
@@ -301,9 +301,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>A Review of Real-time Railway and Metro Rescheduling Models using Learning Algorithms</title>
-      <link>https://matej-jusup.com/publication/ijcai2021/</link>
+      <link>http://localhost:1313/publication/ijcai2021/</link>
       <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/ijcai2021/</guid>
+      <guid>http://localhost:1313/publication/ijcai2021/</guid>
       <description>&lt;!-- 
 
 

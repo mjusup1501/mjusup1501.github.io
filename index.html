@@ -1,9 +1,9 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: January 19, 2026 --><html lang="en-us" dir="ltr"
+<!-- Last Published: November 4, 2026 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -44,7 +44,7 @@
   <meta name="description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://matej-jusup.com/" />
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/" />
 
   
   
@@ -133,45 +133,6 @@
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JW1CXTDCFM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'G-JW1CXTDCFM', {});
-  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
-
 
 
 
@@ -205,7 +166,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu_5cac115d14ed3d49.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_e7f327b39c12e7ca.png" />
 
-  <link rel="canonical" href="https://matej-jusup.com/" />
+  <link rel="canonical" href="http://localhost:1313/" />
 
   
   
@@ -231,10 +192,10 @@
     <meta property="twitter:creator" content="@GetResearchDev" />
   
   <meta property="og:site_name" content="Hugo Academic CV Theme" />
-  <meta property="og:url" content="https://matej-jusup.com/" />
+  <meta property="og:url" content="http://localhost:1313/" />
   <meta property="og:title" content="Hugo Academic CV Theme" />
-  <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." /><meta property="og:image" content="https://matej-jusup.com/media/icon_hu_645fa481986063ef.png" />
-    <meta property="twitter:image" content="https://matej-jusup.com/media/icon_hu_645fa481986063ef.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_645fa481986063ef.png" />
+    <meta property="twitter:image" content="http://localhost:1313/media/icon_hu_645fa481986063ef.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta property="og:updated_time" content="2022-10-24T00:00:00&#43;00:00" />
@@ -246,7 +207,7 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite","url": "https://matej-jusup.com/"
+  "@type": "WebSite","url": "http://localhost:1313/"
 }
 </script>
 
@@ -831,8 +792,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.8c8ea06bd0420f5067e52fa727b9f92303757322ba4431774153d59a9735eadb.js"
-    integrity="sha256-jI6ga9BCD1Bn5S&#43;nJ7n5IwN1cyK6RDF3QVPVmpc16ts="
+    src="/js/hugo-blox-en.min.js"
+    integrity=""
   ></script>
 
   
@@ -1169,7 +1130,7 @@
 
 
 <section id="section-resume-biography-3" class="relative hbb-section blox-resume-biography-3  dark" style="padding: 3rem 0 3rem 0;" >
- <div class="home-section-bg  bg-image" style="background-color: black;background-image: url(&#39;https://matej-jusup.com/media/chess-wallpaper-2_hu_e8e6ef1f574b7ec0.webp&#39;);background-size: cover;background-position: center;filter: brightness(0.5);">
+ <div class="home-section-bg  bg-image" style="background-color: black;background-image: url(&#39;http://localhost:1313/media/chess-wallpaper-2_hu_e8e6ef1f574b7ec0.webp&#39;);background-size: cover;background-position: center;filter: brightness(0.5);">
    
  </div>
   
@@ -1215,12 +1176,12 @@
 
       <div class="text-3xl font-bold mb-2 mt-6">Matej Jusup</div>
 
-      <h3 class="font-semibold mb-1">PhD Student</h3>
+      <h3 class="font-semibold mb-1">Research Engineer</h3>
 
       
       <div class="mb-2">
-        <a href="https://ethz.ch/en.html" target="_blank" rel="noopener">
-        <div>ETH Zurich</div>
+        <a href="https://deepmind.google/" target="_blank" rel="noopener">
+        <div>Google DeepMind</div>
         </a>
       </div>
       
@@ -1362,7 +1323,7 @@
       <div class="bio-text" >
         <h2 id="highlights">Highlights</h2>
 <ul>
-<li>Co-developed the first LLM that plays chess at the world champion level using human-comparable planning efficiency at Google DeepMind hosted as <a href="https://gemini.google.com/gem/chess-champ" target="_blank" rel="noopener">Gemini Chess Gem</a>.</li>
+<li>Co-developed Gemini Chess, the first LLM that plays chess at the world champion level using human-comparable planning efficiency at Google DeepMind.</li>
 <li>Designed a scalable probabilistic decision-making model for safe real-time multi-agent fleet control.</li>
 <li>Demonstrated coordination of 10,000+ autonomous vehicles with sub-second planning latency.</li>
 <li>PhD with 5 years of industry experience, including a leadership position.</li>
@@ -1370,8 +1331,9 @@
 <li>On <a href="www.chess.com">www.chess.com</a> 99.999th percentile among over 100 million registered users.</li>
 </ul>
 <h2 id="about-me">About Me</h2>
+<p>In June 2026, I joined <a href="https://www.deepmind.com/" target="_blank" rel="noopener">Google DeepMind</a> as a Research Engineer on the Multi-Agent Learning and Game Theory team, led by <a href="https://www.cs.ox.ac.uk/people/shimon.whiteson/" target="_blank" rel="noopener">Prof. Shimon Whiteson</a> and <a href="https://georgiospiliouras.com/" target="_blank" rel="noopener">Prof. Georgios Piliouras</a>.</p>
 <p style="text-align: justify;">I obtained my PhD at <a href="https://ethz.ch/en.html" target="_blank" rel="noopener">ETH Zurich</a> on <em>safe and scalable multi-agent reinforcement learning</em> and was an Associated Researcher at <a href="https://ai.ethz.ch/" target="_blank" rel="noopener">ETH AI Center</a>, supervised by <a href="https://francescocorman.eu/" target="_blank" rel="noopener">Prof. Francesco Corman</a> and <a href="https://las.inf.ethz.ch/krausea" target="_blank" rel="noopener">Prof. Andreas Krause</a>.</p>
-<p style="text-align: justify;">During my PhD, I co-developed a <a href="https://gemini.google.com/gem/chess-champ" target="_blank" rel="noopener">Gemini Chess Gem</a>—the first language model to reach Grandmaster-level performance in Chess with human-comparable planning efficiency. It integrates search-based planning techniques to enhance multi-step reasoning in games like Chess, Chess960, Connect Four, and Hex. This work was part of my Student Research on the Gemini Post-Training Team at Google DeepMind, hosted by <a href="https://ericmalmi.com/" target="_blank" rel="noopener">Eric Malmi</a> and <a href="https://scholar.google.com/citations?user=EoVDI3MAAAAJ&amp;hl=en" target="_blank" rel="noopener">Aliaksei Severyn</a>.</p>
+<p style="text-align: justify;">During my PhD, I co-developed Gemini Chess—the first language model to reach Grandmaster-level performance in Chess with human-comparable planning efficiency. It integrates search-based planning techniques to enhance multi-step reasoning in games like Chess, Chess960, Connect Four, and Hex. This work was part of my Student Research on the Gemini Post-Training Team at Google DeepMind, hosted by <a href="https://ericmalmi.com/" target="_blank" rel="noopener">Eric Malmi</a> and <a href="https://scholar.google.com/citations?user=EoVDI3MAAAAJ&amp;hl=en" target="_blank" rel="noopener">Aliaksei Severyn</a>.</p>
 <p style="text-align: justify;">Before starting a PhD, I worked as a Machine Learning Researcher at <a href="https://www.morganstanley.com/" target="_blank" rel="noopener">Morgan Stanley</a> and as a Senior Maching Learning Researcher, leading a team of four, in a tech startup, <a href="https://cantabpi.com/" target="_blank" rel="noopener">Cantab Predictive Intelligence</a>.</p>
 
       </div>
@@ -1396,7 +1358,15 @@
       <ul class="list-disc list-inside space-y-1 pl-5">
         
         <li>
-          Artificial Intelligence
+          Multi-Agent Learning
+        </li>
+        
+        <li>
+          AI Safety
+        </li>
+        
+        <li>
+          Game Theory
         </li>
         
         <li>
@@ -1404,15 +1374,7 @@
         </li>
         
         <li>
-          Large Language Models (LLMs)
-        </li>
-        
-        <li>
           Planning and Reasoning (with LLMs)
-        </li>
-        
-        <li>
-          Inference Time Methods
         </li>
         
         <li>
@@ -1420,19 +1382,7 @@
         </li>
         
         <li>
-          Multi-Agent Systems
-        </li>
-        
-        <li>
           Probabilistic Learning
-        </li>
-        
-        <li>
-          Safe Learning
-        </li>
-        
-        <li>
-          Data-Driven Algorithms
         </li>
         
         <li>
@@ -1606,7 +1556,7 @@
 
 
 <section id="papers" class="relative hbb-section blox-collection  dark" style="padding: 3rem 0 3rem 0;" >
- <div class="home-section-bg  bg-image" style="background-color: black;background-image: url(&#39;https://matej-jusup.com/media/stacked-peaks.svg&#39;);background-size: cover;background-position: center;filter: brightness(0.5);">
+ <div class="home-section-bg  bg-image" style="background-color: black;background-image: url(&#39;http://localhost:1313/media/stacked-peaks.svg&#39;);background-size: cover;background-position: center;filter: brightness(0.5);">
    
  </div>
   
@@ -2365,7 +2315,7 @@
 
 
 <section id="experience" class="relative hbb-section blox-resume-experience  dark" style="padding: 3rem 0 3rem 0;" >
- <div class="home-section-bg  bg-image" style="background-color: black;background-image: url(&#39;https://matej-jusup.com/media/stacked-peaks.svg&#39;);background-size: cover;background-position: center;filter: brightness(0.5);">
+ <div class="home-section-bg  bg-image" style="background-color: black;background-image: url(&#39;http://localhost:1313/media/stacked-peaks.svg&#39;);background-size: cover;background-position: center;filter: brightness(0.5);">
    
  </div>
   
@@ -2412,8 +2362,54 @@
       <div class="flex justify-between items-start gap-x-3"> 
         
         <div class="flex-grow"> 
+          <h3 class="mb-0.5 text-lg font-semibold text-gray-900 dark:text-white text-wrap">Research Engineer</h3>
+          <h4 class="mb-2 text-md font-medium text-gray-700 dark:text-white text-wrap italic">Google DeepMind –– Multi-Agent Learning and Game Theory</h4> 
+          
+          
+        </div>
+        
+          
+          
+           
+          
+            
+            <div class="flex-shrink-0"> 
+                <img src="/media/Google_DeepMind_logo_hu_e00521925aef9845.png" alt=" logo" class="h-8 w-auto object-contain"> 
+            </div>
+          
+        
+      </div>
+      
+      
+        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">London, United Kingdom</span>
+      
+      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        
+          June 2026 –
+        
+        
+          Present
+        
+      </time>
+      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"></div>
+
+      
+
+    </li>
+    
+    <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+        </span>
+      
+        
+      
+      
+      <div class="flex justify-between items-start gap-x-3"> 
+        
+        <div class="flex-grow"> 
           <h3 class="mb-0.5 text-lg font-semibold text-gray-900 dark:text-white text-wrap">Student Researcher</h3>
-          <h4 class="mb-2 text-md font-medium text-gray-700 dark:text-white text-wrap italic">Google DeepMind –– Gemini Post-Training Team</h4> 
+          <h4 class="mb-2 text-md font-medium text-gray-700 dark:text-white text-wrap italic">Google DeepMind –– Gemini Post-Training</h4> 
           
           
         </div>
@@ -2442,7 +2438,7 @@
         
       </time>
       <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><ul>
-<li><strong>Key Contribution:</strong> The first LLM that plays chess at the world champion level using human search budget — <a href="https://gemini.google.com/gem/chess-champ" target="_blank" rel="noopener">Gemini Chess Gem</a>.</li>
+<li><strong>Key Contribution:</strong> The first LLM that plays chess at the world champion level using human search budget.</li>
 <li><strong>Hosts:</strong> <a href="https://scholar.google.fi/citations?user=8nfCufAAAAAJ&amp;hl=en" target="_blank" rel="noopener">Eric Malmi</a> and <a href="https://scholar.google.com/citations?user=EoVDI3MAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener">Aliaksei Severyn</a></li>
 <li><strong>Publication:</strong> First co-author of a spotlight paper at ICML 2025 — <a href="https://arxiv.org/abs/2412.12119" target="_blank" rel="noopener">https://arxiv.org/abs/2412.12119</a></li>
 <li><strong>Planning with LLMs:</strong> Enhanced LLMs with search-based planning techniques to improve multi-step reasoning.</li>
@@ -3790,7 +3786,7 @@
 
 
 <section id="chess" class="relative hbb-section blox-markdown  dark" style="padding: 3rem 0 3rem 0;" >
- <div class="home-section-bg  bg-image" style="background-color: black;background-image: url(&#39;https://matej-jusup.com/media/chess-wallpaper-2_hu_e8e6ef1f574b7ec0.webp&#39;);background-size: cover;background-position: center;filter: brightness(0.5);">
+ <div class="home-section-bg  bg-image" style="background-color: black;background-image: url(&#39;http://localhost:1313/media/chess-wallpaper-2_hu_e8e6ef1f574b7ec0.webp&#39;);background-size: cover;background-position: center;filter: brightness(0.5);">
    
  </div>
   

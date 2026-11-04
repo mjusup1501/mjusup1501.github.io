@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo Academic CV Theme</title>
-    <link>https://matej-jusup.com/</link>
-      <atom:link href="https://matej-jusup.com/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>Hugo Academic CV Theme</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://matej-jusup.com/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Hugo Academic CV Theme</title>
-      <link>https://matej-jusup.com/</link>
+      <link>http://localhost:1313/</link>
     </image>
     
     <item>
       <title>CroAI – ML Pub Meetup</title>
-      <link>https://matej-jusup.com/event/croai_2025/</link>
+      <link>http://localhost:1313/event/croai_2025/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/croai_2025/</guid>
+      <guid>http://localhost:1313/event/croai_2025/</guid>
       <description>&lt;!-- 
 
 
@@ -45,9 +45,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Mastering Board Games by External and Internal Planning with Language Models</title>
-      <link>https://matej-jusup.com/publication/mastering_chess2024/</link>
+      <link>http://localhost:1313/publication/mastering_chess2024/</link>
       <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/mastering_chess2024/</guid>
+      <guid>http://localhost:1313/publication/mastering_chess2024/</guid>
       <description>&lt;!-- 
 
 
@@ -86,9 +86,9 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     
     <item>
       <title>ETH Zurich AI Center Associated Researchers Meetup</title>
-      <link>https://matej-jusup.com/event/ai_center_2025/</link>
+      <link>http://localhost:1313/event/ai_center_2025/</link>
       <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/ai_center_2025/</guid>
+      <guid>http://localhost:1313/event/ai_center_2025/</guid>
       <description>&lt;!-- 
 
 
@@ -117,9 +117,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Ride-Sourcing Vehicle Rebalancing with Service Accessibility Guarantees via Constrained Mean-Field Reinforcement Learning</title>
-      <link>https://matej-jusup.com/publication/mfrl_rebalancing2025/</link>
+      <link>http://localhost:1313/publication/mfrl_rebalancing2025/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/mfrl_rebalancing2025/</guid>
+      <guid>http://localhost:1313/publication/mfrl_rebalancing2025/</guid>
       <description>&lt;!-- 
 
 
@@ -158,9 +158,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>ZurichNLP Meetup</title>
-      <link>https://matej-jusup.com/event/zurich_nlp_2025/</link>
+      <link>http://localhost:1313/event/zurich_nlp_2025/</link>
       <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/zurich_nlp_2025/</guid>
+      <guid>http://localhost:1313/event/zurich_nlp_2025/</guid>
       <description>&lt;!-- 
 
 
@@ -189,9 +189,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Mean-Field Bayesian Optimisation</title>
-      <link>https://matej-jusup.com/publication/mfbo2025/</link>
+      <link>http://localhost:1313/publication/mfbo2025/</link>
       <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/mfbo2025/</guid>
+      <guid>http://localhost:1313/publication/mfbo2025/</guid>
       <description>&lt;!-- 
 
 
@@ -230,9 +230,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Google DeepMind Booth at NeurIPS 2024</title>
-      <link>https://matej-jusup.com/event/neurips2024/</link>
+      <link>http://localhost:1313/event/neurips2024/</link>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/neurips2024/</guid>
+      <guid>http://localhost:1313/event/neurips2024/</guid>
       <description>&lt;!-- 
 
 
@@ -261,9 +261,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Monte Carlo Planning for Stochastic Control on Constrained Markov Decision Processes</title>
-      <link>https://matej-jusup.com/publication/stochastic_control2024/</link>
+      <link>http://localhost:1313/publication/stochastic_control2024/</link>
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/stochastic_control2024/</guid>
+      <guid>http://localhost:1313/publication/stochastic_control2024/</guid>
       <description>&lt;!-- 
 
 
@@ -302,17 +302,17 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Projects</title>
-      <link>https://matej-jusup.com/projects/</link>
+      <link>http://localhost:1313/projects/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/projects/</guid>
+      <guid>http://localhost:1313/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The 23rd International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS 2024)</title>
-      <link>https://matej-jusup.com/event/aamas2024/</link>
+      <link>http://localhost:1313/event/aamas2024/</link>
       <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/aamas2024/</guid>
+      <guid>http://localhost:1313/event/aamas2024/</guid>
       <description>&lt;!-- 
 
 
@@ -341,9 +341,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Safe Model-Based Multi-Agent Mean-Field Reinforcement Learning</title>
-      <link>https://matej-jusup.com/publication/aamas2024/</link>
+      <link>http://localhost:1313/publication/aamas2024/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/aamas2024/</guid>
+      <guid>http://localhost:1313/publication/aamas2024/</guid>
       <description>&lt;!-- 
 
 
@@ -382,9 +382,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>https://matej-jusup.com/post/get-started/</link>
+      <link>http://localhost:1313/post/get-started/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/post/get-started/</guid>
+      <guid>http://localhost:1313/post/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 
@@ -468,33 +468,33 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Pandas</title>
-      <link>https://matej-jusup.com/project/pandas/</link>
+      <link>http://localhost:1313/project/pandas/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/project/pandas/</guid>
+      <guid>http://localhost:1313/project/pandas/</guid>
       <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>PyTorch</title>
-      <link>https://matej-jusup.com/project/pytorch/</link>
+      <link>http://localhost:1313/project/pytorch/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/project/pytorch/</guid>
+      <guid>http://localhost:1313/project/pytorch/</guid>
       <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>scikit-learn</title>
-      <link>https://matej-jusup.com/project/scikit/</link>
+      <link>http://localhost:1313/project/scikit/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/project/scikit/</guid>
+      <guid>http://localhost:1313/project/scikit/</guid>
       <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>🧠 Sharpen your thinking with a second brain</title>
-      <link>https://matej-jusup.com/post/second-brain/</link>
+      <link>http://localhost:1313/post/second-brain/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/post/second-brain/</guid>
+      <guid>http://localhost:1313/post/second-brain/</guid>
       <description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
 &lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
 &lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
@@ -604,9 +604,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>📈 Communicate your results effectively with the best data visualizations</title>
-      <link>https://matej-jusup.com/post/data-visualization/</link>
+      <link>http://localhost:1313/post/data-visualization/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/post/data-visualization/</guid>
+      <guid>http://localhost:1313/post/data-visualization/</guid>
       <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
@@ -617,7 +617,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 
-&lt;div id=&#34;chart-923815476&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-275864391&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -635,7 +635,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-923815476&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-275864391&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -814,9 +814,9 @@ Crash --&gt; [*]
     
     <item>
       <title>👩🏼‍🏫 Teach academic courses</title>
-      <link>https://matej-jusup.com/post/teach-courses/</link>
+      <link>http://localhost:1313/post/teach-courses/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/post/teach-courses/</guid>
+      <guid>http://localhost:1313/post/teach-courses/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -865,7 +865,7 @@ Crash --&gt; [*]
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://matej-jusup.com/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -924,9 +924,9 @@ data.head()
     
     <item>
       <title>Learn JavaScript</title>
-      <link>https://matej-jusup.com/teaching/js/</link>
+      <link>http://localhost:1313/teaching/js/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/teaching/js/</guid>
+      <guid>http://localhost:1313/teaching/js/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -969,7 +969,7 @@ data.head()
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://matej-jusup.com/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -1046,9 +1046,9 @@ data.head()
     
     <item>
       <title>Learn Python</title>
-      <link>https://matej-jusup.com/hobbies_advanced/chess/</link>
+      <link>http://localhost:1313/hobbies_advanced/chess/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/hobbies_advanced/chess/</guid>
+      <guid>http://localhost:1313/hobbies_advanced/chess/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -1091,7 +1091,7 @@ data.head()
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://matej-jusup.com/hobbies_advanced/chess/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/hobbies_advanced/chess/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -1168,9 +1168,9 @@ data.head()
     
     <item>
       <title>Learn Python</title>
-      <link>https://matej-jusup.com/teaching/python/</link>
+      <link>http://localhost:1313/teaching/python/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/teaching/python/</guid>
+      <guid>http://localhost:1313/teaching/python/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -1213,7 +1213,7 @@ data.head()
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://matej-jusup.com/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -1290,9 +1290,9 @@ data.head()
     
     <item>
       <title>✅ Manage your projects</title>
-      <link>https://matej-jusup.com/post/project-management/</link>
+      <link>http://localhost:1313/post/project-management/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/post/project-management/</guid>
+      <guid>http://localhost:1313/post/project-management/</guid>
       <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
 &lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
 &lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
@@ -1365,9 +1365,9 @@ Parallel 4   :         des6, after des4, 1d
     
     <item>
       <title>ETH Zurich AI Center Associated Researchers Meetup</title>
-      <link>https://matej-jusup.com/event/ai_center_2023/</link>
+      <link>http://localhost:1313/event/ai_center_2023/</link>
       <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/ai_center_2023/</guid>
+      <guid>http://localhost:1313/event/ai_center_2023/</guid>
       <description>&lt;!-- 
 
 
@@ -1396,9 +1396,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Efficient Planning in Combinatorial Action Spaces with Applications to Cooperative Multi-Agent Reinforcement Learning</title>
-      <link>https://matej-jusup.com/publication/aistats2023/</link>
+      <link>http://localhost:1313/publication/aistats2023/</link>
       <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/aistats2023/</guid>
+      <guid>http://localhost:1313/publication/aistats2023/</guid>
       <description>&lt;!-- 
 
 
@@ -1437,9 +1437,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Workshop on Stochastic Modelling and Monte-Carlo Tree Search</title>
-      <link>https://matej-jusup.com/event/tum_workshop/</link>
+      <link>http://localhost:1313/event/tum_workshop/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/tum_workshop/</guid>
+      <guid>http://localhost:1313/event/tum_workshop/</guid>
       <description>&lt;!-- 
 
 
@@ -1468,9 +1468,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>22nd Swiss Transport Research Conference (STRC 2021)</title>
-      <link>https://matej-jusup.com/event/strc2022/</link>
+      <link>http://localhost:1313/event/strc2022/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/strc2022/</guid>
+      <guid>http://localhost:1313/event/strc2022/</guid>
       <description>&lt;!-- 
 
 
@@ -1499,9 +1499,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Real-time railway (re-) scheduling without human-expert knowledge</title>
-      <link>https://matej-jusup.com/publication/strc2022/</link>
+      <link>http://localhost:1313/publication/strc2022/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/strc2022/</guid>
+      <guid>http://localhost:1313/publication/strc2022/</guid>
       <description>&lt;!-- 
 
 
@@ -1540,9 +1540,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>21st Swiss Transport Research Conference (STRC 2021)</title>
-      <link>https://matej-jusup.com/event/strc2021/</link>
+      <link>http://localhost:1313/event/strc2021/</link>
       <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/strc2021/</guid>
+      <guid>http://localhost:1313/event/strc2021/</guid>
       <description>&lt;!-- 
 
 
@@ -1571,9 +1571,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>A Review of Real-time Railway and Metro Rescheduling Models using Learning Algorithms</title>
-      <link>https://matej-jusup.com/publication/ijcai2021/</link>
+      <link>http://localhost:1313/publication/ijcai2021/</link>
       <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/ijcai2021/</guid>
+      <guid>http://localhost:1313/publication/ijcai2021/</guid>
       <description>&lt;!-- 
 
 
@@ -1612,9 +1612,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>IJCAI 2021 Reinforcement Learning for Intelligent Transportation Systems (RL4ITS) Workshop</title>
-      <link>https://matej-jusup.com/event/ijcai2021/</link>
+      <link>http://localhost:1313/event/ijcai2021/</link>
       <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/ijcai2021/</guid>
+      <guid>http://localhost:1313/event/ijcai2021/</guid>
       <description>&lt;!-- 
 
 
@@ -1643,9 +1643,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>DevArena 2019</title>
-      <link>https://matej-jusup.com/event/dev_arena/</link>
+      <link>http://localhost:1313/event/dev_arena/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/dev_arena/</guid>
+      <guid>http://localhost:1313/event/dev_arena/</guid>
       <description>&lt;!-- 
 
 
@@ -1674,17 +1674,17 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Experience</title>
-      <link>https://matej-jusup.com/experience/</link>
+      <link>http://localhost:1313/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/experience/</guid>
+      <guid>http://localhost:1313/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>https://matej-jusup.com/publications/</link>
+      <link>http://localhost:1313/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publications/</guid>
+      <guid>http://localhost:1313/publications/</guid>
       <description></description>
     </item>
     

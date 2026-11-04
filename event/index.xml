@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks | Hugo Academic CV Theme</title>
-    <link>https://matej-jusup.com/event/</link>
-      <atom:link href="https://matej-jusup.com/event/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/event/</link>
+      <atom:link href="http://localhost:1313/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://matej-jusup.com/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://matej-jusup.com/event/</link>
+      <link>http://localhost:1313/event/</link>
     </image>
     
     <item>
       <title>CroAI – ML Pub Meetup</title>
-      <link>https://matej-jusup.com/event/croai_2025/</link>
+      <link>http://localhost:1313/event/croai_2025/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/croai_2025/</guid>
+      <guid>http://localhost:1313/event/croai_2025/</guid>
       <description>&lt;!-- 
 
 
@@ -45,9 +45,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>ETH Zurich AI Center Associated Researchers Meetup</title>
-      <link>https://matej-jusup.com/event/ai_center_2025/</link>
+      <link>http://localhost:1313/event/ai_center_2025/</link>
       <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/ai_center_2025/</guid>
+      <guid>http://localhost:1313/event/ai_center_2025/</guid>
       <description>&lt;!-- 
 
 
@@ -76,9 +76,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>ZurichNLP Meetup</title>
-      <link>https://matej-jusup.com/event/zurich_nlp_2025/</link>
+      <link>http://localhost:1313/event/zurich_nlp_2025/</link>
       <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/zurich_nlp_2025/</guid>
+      <guid>http://localhost:1313/event/zurich_nlp_2025/</guid>
       <description>&lt;!-- 
 
 
@@ -107,9 +107,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Google DeepMind Booth at NeurIPS 2024</title>
-      <link>https://matej-jusup.com/event/neurips2024/</link>
+      <link>http://localhost:1313/event/neurips2024/</link>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/neurips2024/</guid>
+      <guid>http://localhost:1313/event/neurips2024/</guid>
       <description>&lt;!-- 
 
 
@@ -138,9 +138,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>The 23rd International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS 2024)</title>
-      <link>https://matej-jusup.com/event/aamas2024/</link>
+      <link>http://localhost:1313/event/aamas2024/</link>
       <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/aamas2024/</guid>
+      <guid>http://localhost:1313/event/aamas2024/</guid>
       <description>&lt;!-- 
 
 
@@ -169,9 +169,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>ETH Zurich AI Center Associated Researchers Meetup</title>
-      <link>https://matej-jusup.com/event/ai_center_2023/</link>
+      <link>http://localhost:1313/event/ai_center_2023/</link>
       <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/ai_center_2023/</guid>
+      <guid>http://localhost:1313/event/ai_center_2023/</guid>
       <description>&lt;!-- 
 
 
@@ -200,9 +200,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Workshop on Stochastic Modelling and Monte-Carlo Tree Search</title>
-      <link>https://matej-jusup.com/event/tum_workshop/</link>
+      <link>http://localhost:1313/event/tum_workshop/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/tum_workshop/</guid>
+      <guid>http://localhost:1313/event/tum_workshop/</guid>
       <description>&lt;!-- 
 
 
@@ -231,9 +231,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>22nd Swiss Transport Research Conference (STRC 2021)</title>
-      <link>https://matej-jusup.com/event/strc2022/</link>
+      <link>http://localhost:1313/event/strc2022/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/strc2022/</guid>
+      <guid>http://localhost:1313/event/strc2022/</guid>
       <description>&lt;!-- 
 
 
@@ -262,9 +262,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>21st Swiss Transport Research Conference (STRC 2021)</title>
-      <link>https://matej-jusup.com/event/strc2021/</link>
+      <link>http://localhost:1313/event/strc2021/</link>
       <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/strc2021/</guid>
+      <guid>http://localhost:1313/event/strc2021/</guid>
       <description>&lt;!-- 
 
 
@@ -293,9 +293,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>IJCAI 2021 Reinforcement Learning for Intelligent Transportation Systems (RL4ITS) Workshop</title>
-      <link>https://matej-jusup.com/event/ijcai2021/</link>
+      <link>http://localhost:1313/event/ijcai2021/</link>
       <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/ijcai2021/</guid>
+      <guid>http://localhost:1313/event/ijcai2021/</guid>
       <description>&lt;!-- 
 
 
@@ -324,9 +324,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>DevArena 2019</title>
-      <link>https://matej-jusup.com/event/dev_arena/</link>
+      <link>http://localhost:1313/event/dev_arena/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/event/dev_arena/</guid>
+      <guid>http://localhost:1313/event/dev_arena/</guid>
       <description>&lt;!-- 
 
 

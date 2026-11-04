@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Article | Hugo Academic CV Theme</title>
-    <link>https://matej-jusup.com/publication_types/article/</link>
-      <atom:link href="https://matej-jusup.com/publication_types/article/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/publication_types/article/</link>
+      <atom:link href="http://localhost:1313/publication_types/article/index.xml" rel="self" type="application/rss+xml" />
     <description>Article</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://matej-jusup.com/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Article</title>
-      <link>https://matej-jusup.com/publication_types/article/</link>
+      <link>http://localhost:1313/publication_types/article/</link>
     </image>
     
     <item>
       <title>Ride-Sourcing Vehicle Rebalancing with Service Accessibility Guarantees via Constrained Mean-Field Reinforcement Learning</title>
-      <link>https://matej-jusup.com/publication/mfrl_rebalancing2025/</link>
+      <link>http://localhost:1313/publication/mfrl_rebalancing2025/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/mfrl_rebalancing2025/</guid>
+      <guid>http://localhost:1313/publication/mfrl_rebalancing2025/</guid>
       <description>&lt;!-- 
 
 
@@ -55,9 +55,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Mean-Field Bayesian Optimisation</title>
-      <link>https://matej-jusup.com/publication/mfbo2025/</link>
+      <link>http://localhost:1313/publication/mfbo2025/</link>
       <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/mfbo2025/</guid>
+      <guid>http://localhost:1313/publication/mfbo2025/</guid>
       <description>&lt;!-- 
 
 
@@ -96,9 +96,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Monte Carlo Planning for Stochastic Control on Constrained Markov Decision Processes</title>
-      <link>https://matej-jusup.com/publication/stochastic_control2024/</link>
+      <link>http://localhost:1313/publication/stochastic_control2024/</link>
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://matej-jusup.com/publication/stochastic_control2024/</guid>
+      <guid>http://localhost:1313/publication/stochastic_control2024/</guid>
       <description>&lt;!-- 
 
 
